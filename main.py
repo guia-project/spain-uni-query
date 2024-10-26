@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
@@ -17,8 +18,7 @@ def get_university_data(url):
         "Address": {},
         "Document": {}
     }
-    # driver.get(url)
-
+    driver.get(url)
     # print(driver.page_source)
 
 
@@ -27,18 +27,22 @@ driver.get(university_url)
 submit = driver.find_element(By.CLASS_NAME, "botones-submit")
 submit.click()
 
-universities_list = []
-table_university = driver.find_element(By.TAG_NAME, "table")
-table_links = table_university.find_elements(By.TAG_NAME, "a")
-for link in table_links:
-    link_address = link.get_attribute("href")
-    if link_address.__contains__("ruct/universidad.action"):
-        universities_list.append(link_address)
-
-for university in universities_list:
-    get_university_data(university)
-
-driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente").click()
-
+end_page = False
+while not end_page:
+    universities_list = []
+    table_university = driver.find_element(By.TAG_NAME, "table")
+    table_links = table_university.find_elements(By.TAG_NAME, "a")
+    for link in table_links:
+        link_address = link.get_attribute("href")
+        if link_address.__contains__("ruct/universidad.action"):
+            print(link_address)
+            universities_list.append(link_address)
+    for university in universities_list:
+        get_university_data(university)
+    try:
+        page_link = driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente")
+        page_link.click()
+    except NoSuchElementException:
+        end_page = True
 
 driver.quit()
