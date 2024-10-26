@@ -5,10 +5,10 @@ from selenium.webdriver.chrome.options import Options
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(chrome_options)
-rootURL = "https://www.educacion.gob.es/ruct/"
-universityURL = rootURL + "consultauniversidades?actual=universidades"
-centerURL = rootURL + "consultacentros?actual=centros"
-titleURL = rootURL + "consultaestudios?actual=estudios"
+root_url = "https://www.educacion.gob.es/ruct/"
+university_url = root_url + "consultauniversidades?actual=universidades"
+center_url = root_url + "consultacentros?actual=centros"
+title_url = root_url + "consultaestudios?actual=estudios"
 
 
 def get_university_data(url):
@@ -23,16 +23,13 @@ def get_university_data(url):
 
 
 driver.implicitly_wait(0.5)
-driver.get(universityURL)
-
+driver.get(university_url)
 submit = driver.find_element(By.CLASS_NAME, "botones-submit")
 submit.click()
-print(driver.page_source)
 
+universities_list = []
 table_university = driver.find_element(By.TAG_NAME, "table")
 table_links = table_university.find_elements(By.TAG_NAME, "a")
-universities_list = []
-
 for link in table_links:
     link_address = link.get_attribute("href")
     if link_address.__contains__("ruct/universidad.action"):
@@ -40,5 +37,8 @@ for link in table_links:
 
 for university in universities_list:
     get_university_data(university)
+
+driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente").click()
+
 
 driver.quit()
