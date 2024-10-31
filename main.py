@@ -3,29 +3,37 @@ from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
+ROOT_URL = "https://www.educacion.gob.es/ruct/"
+UNIVERSITY_URL = ROOT_URL + "consultauniversidades?actual=universidades"
+CENTER_URL = ROOT_URL + "consultacentros?actual=centros"
+TITLE_URL = ROOT_URL + "consultaestudios?actual=estudios"
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(chrome_options)
-root_url = "https://www.educacion.gob.es/ruct/"
-university_url = root_url + "consultauniversidades?actual=universidades"
-center_url = root_url + "consultacentros?actual=centros"
-title_url = root_url + "consultaestudios?actual=estudios"
 
 
 def get_university_data(url):
     university_data = {
-        "Identification": {},
-        "Address": {},
-        "Document": {}
+        "University": {"Identification": {},
+                       "Address": {},
+                       "Document": {}}
     }
+    entity = 2
     driver.get(url)
-    university_code = driver.find_element(By.CSS_SELECTOR, 'label[for="codigoUniversidad"]')
-    print(university_code.text)
+    university_table = driver.find_element(By.TAG_NAME, "fieldset")
+    university_children = university_table.find_elements(By.XPATH, "./*")
+    for child in university_children:
+        if child.aria_role == "heading":
+            entity = (entity + 1) % 3
+        attributes = driver.find_elements(By.TAG_NAME, "label")
+        for attribute in attributes:
+            print(attribute.get_attribute("for") + " " + attribute.text)
+            #university_data[entity][child.tag_name] = child.text
     driver.back()
 
 
 driver.implicitly_wait(0.5)
-driver.get(university_url)
+driver.get(UNIVERSITY_URL)
 submit = driver.find_element(By.CLASS_NAME, "botones-submit")
 submit.click()
 
