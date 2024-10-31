@@ -2,6 +2,8 @@ from selenium import webdriver
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from collections import defaultdict
+import json
 
 ROOT_URL = "https://www.educacion.gob.es/ruct/"
 UNIVERSITY_URL = ROOT_URL + "consultauniversidades?actual=universidades"
@@ -12,24 +14,30 @@ chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(chrome_options)
 
 
+def nested_dict():
+    return defaultdict(nested_dict)
+
+
 def get_university_data(url):
-    university_data = {
-        "University": {"Identification": {},
-                       "Address": {},
-                       "Document": {}}
-    }
-    entity = 2
+    university_dict = nested_dict()
+    index_entity = 2
+    entities = ["Identification", "Address", "Document"]
     driver.get(url)
+    name_university = driver.find_element(By.TAG_NAME, "h2")
     university_table = driver.find_element(By.TAG_NAME, "fieldset")
     university_children = university_table.find_elements(By.XPATH, "./*")
     for child in university_children:
         if child.aria_role == "heading":
-            entity = (entity + 1) % 3
-        attributes = driver.find_elements(By.TAG_NAME, "label")
-        for attribute in attributes:
-            print(attribute.get_attribute("for") + " " + attribute.text)
-            #university_data[entity][child.tag_name] = child.text
+            index_entity = (index_entity + 1) % 3
+        if child.aria_role == "LabelText":
+            key_value = child.text.split(":\n")
+            try:
+                university_dict[name_university.text][entities[index_entity]][key_value[0]] = key_value[1]
+            except IndexError:
+                university_dict[name_university.text][entities[index_entity]][key_value[0]] = ""
+    print(json.dumps(university_dict, indent=4))  # Imprime university_dict en formato JSON
     driver.back()
+    return university_dict
 
 
 driver.implicitly_wait(0.5)
