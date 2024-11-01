@@ -1,0 +1,3268 @@
+{
+    "Centros autorizados para impartir Enseñanzas Artísticas Superiores": {
+        "Datos de identificación": {
+            "Código de la universidad": "099",
+            "Tipo": "Privada",
+            "Administración Educativa Responsable": "Estado"
+        },
+        "Datos de ubicación": {
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "2022",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "09/03/2022",
+            "Fecha publicación": "09/03/2022",
+            "Fecha entrada en Vigor": "09/03/2022"
+        }
+    },
+    "Centros dependientes del Ministerio de Defensa": {
+        "Datos de identificación": {
+            "Código de la universidad": "086",
+            "Tipo": "Pública",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Estado"
+        },
+        "Datos de ubicación": {
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "2019",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "06/02/2019",
+            "Fecha publicación": "06/02/2019",
+            "Fecha entrada en Vigor": "06/02/2019"
+        }
+    },
+    "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón": {
+        "Datos de identificación": {
+            "Código de la universidad": "105",
+            "Tipo": "Pública",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Aragón"
+        },
+        "Datos de ubicación": {
+            "Localidad": "Zaragoza",
+            "Municipio": "Zaragoza",
+            "Provincia": "Zaragoza",
+            "Comunidad Autónoma": "Comunidad Autónoma de Aragón"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de Aragón",
+            "Año publicación": "2000",
+            "Tipo disposición": "Decreto Autonómico",
+            "Fecha disposición": "18/01/2000",
+            "Fecha publicación": "31/01/2000",
+            "Fecha entrada en Vigor": "01/02/2000"
+        }
+    },
+    "Centros extranjeros autorizados por la Comunidad Autónoma de Cantabria": {
+        "Datos de identificación": {
+            "Código de la universidad": "092",
+            "Tipo": "Pública",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cantabria"
+        },
+        "Datos de ubicación": {
+            "Localidad": "Santander",
+            "Municipio": "Santander",
+            "Provincia": "Cantabria",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cantabria"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "2020",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "03/03/2020",
+            "Fecha publicación": "03/03/2020",
+            "Fecha entrada en Vigor": "03/03/2020"
+        }
+    },
+    "Centros extranjeros autorizados por la Comunidad Autónoma de Cataluña": {
+        "Datos de identificación": {
+            "Código de la universidad": "101",
+            "Tipo": "Pública",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Localidad": "Barcelona",
+            "Municipio": "Barcelona",
+            "Provincia": "Barcelona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat de Catalunya",
+            "Año publicación": "2022",
+            "Tipo disposición": "Resol./Edicto de una Admón. Autonómica",
+            "Fecha disposición": "29/11/2022",
+            "Fecha publicación": "13/12/2022",
+            "Fecha entrada en Vigor": "14/12/2022"
+        }
+    },
+    "Centros extranjeros autorizados por la Comunidad Autónoma del País Vasco": {
+        "Datos de identificación": {
+            "Código de la universidad": "095",
+            "Tipo": "Pública",
+            "Administración Educativa Responsable :": ""
+        },
+        "Datos de ubicación": {
+            "Localidad": "Bilbao",
+            "Municipio": "Bilbao",
+            "Provincia": "Bizkaia",
+            "Comunidad Autónoma": "Comunidad Autónoma del País Vasco"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "2021",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "18/02/2021",
+            "Fecha publicación": "18/02/2021",
+            "Fecha entrada en Vigor": "18/02/2021"
+        }
+    },
+    "Centros extranjeros autorizados por la Comunidad de Andalucía": {
+        "Datos de identificación": {
+            "Código de la universidad": "093",
+            "Tipo": "Pública",
+            "Administración Educativa Responsable :": ""
+        },
+        "Datos de ubicación": {
+            "Localidad": "Sevilla",
+            "Municipio": "Sevilla",
+            "Provincia": "Sevilla",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "2020",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "01/06/2020",
+            "Fecha publicación": "01/06/2020",
+            "Fecha entrada en Vigor": "01/06/2020"
+        }
+    },
+    "Centros extranjeros autorizados por la Comunidad de Madrid": {
+        "Datos de identificación": {
+            "Código de la universidad": "091",
+            "Tipo": "Pública",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "2020",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "27/02/2020",
+            "Fecha publicación": "27/02/2020",
+            "Fecha entrada en Vigor": "27/02/2020"
+        }
+    },
+    "Centros extranjeros autorizados por la Comunidad Valenciana": {
+        "Datos de identificación": {
+            "Código de la universidad": "096",
+            "Tipo": "Pública",
+            "Administración Educativa Responsable :": ""
+        },
+        "Datos de ubicación": {
+            "Localidad": "Valencia",
+            "Municipio": "València",
+            "Provincia": "Valencia/València",
+            "Comunidad Autónoma": "Comunidad Valenciana"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat Valenciana",
+            "Año publicación": "2012",
+            "Tipo disposición": "Resol./Edicto de una Admón. Autonómica",
+            "Fecha disposición": "27/07/2012",
+            "Fecha publicación": "16/08/2012",
+            "Fecha entrada en Vigor": "17/08/2012"
+        }
+    },
+    "CUNEF Universidad": {
+        "Datos de identificación": {
+            "Código de la universidad": "089",
+            "Acrónimo": "CUNEF",
+            "Tipo": "Privada",
+            "CIF": "B86969235",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Almansa, 101",
+            "Código postal": "28040",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.cunef.edu",
+            "Teléfono 1": "91 444 51 61"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Comunidad de Madrid",
+            "Año publicación": "2019",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "27/03/2019",
+            "Fecha publicación": "28/03/2019",
+            "Fecha entrada en Vigor": "29/03/2019"
+        }
+    },
+    "ESIC Universidad": {
+        "Datos de identificación": {
+            "Código de la universidad": "087",
+            "Acrónimo": "ESIC",
+            "Tipo": "Privada",
+            "CIF": "G87046124",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida Valdenigrales s/n",
+            "Código postal": "28223",
+            "Localidad": "Pozuelo de Alarcón",
+            "Municipio": "Pozuelo de Alarcón",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.esic.edu/university/",
+            "Teléfono 1": "914524167"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Comunidad de Madrid",
+            "Año publicación": "2019",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "20/03/2019",
+            "Fecha publicación": "28/03/2019",
+            "Fecha entrada en Vigor": "29/03/2019"
+        }
+    },
+    "IE Universidad": {
+        "Datos de identificación": {
+            "Código de la universidad": "057",
+            "Acrónimo": "IE",
+            "Tipo": "Privada",
+            "CIF": "G40155384",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Castilla y León"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "C/ Cardenal Zúñiga, 12",
+            "Código postal": "40003",
+            "Localidad": "Segovia",
+            "Municipio": "Segovia",
+            "Provincia": "Segovia",
+            "Comunidad Autónoma": "Comunidad de Castilla y León"
+        },
+        "Datos complementarios": {
+            "URL": "www.ie.edu/universidad",
+            "E-mail": "universidad@ie.edu",
+            "Teléfono 1": "921412410",
+            "Fax": "921445593"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1997",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "01/07/1997",
+            "Fecha publicación": "01/07/1997",
+            "Fecha entrada en Vigor": "02/07/1997"
+        }
+    },
+    "Mondragón Unibertsitatea": {
+        "Datos de identificación": {
+            "Código de la universidad": "061",
+            "Acrónimo": "UMON",
+            "Tipo": "Privada",
+            "CIF": "F20560991",
+            "Código Erasmus": "E MONDRAG01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma del País Vasco"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Loramendi, 4. Apartado 23",
+            "Código postal": "20500",
+            "Localidad": "Arrasate/Mondragón",
+            "Municipio": "Arrasate/Mondragón",
+            "Provincia": "Gipuzkoa",
+            "Comunidad Autónoma": "Comunidad Autónoma del País Vasco"
+        },
+        "Datos complementarios": {
+            "URL": "www.mondragon.edu",
+            "Teléfono 1": "943712185",
+            "Fax": "943712193"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del País Vasco",
+            "Año publicación": "1997",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "19/06/1997",
+            "Fecha publicación": "19/06/1997",
+            "Fecha entrada en Vigor": "20/06/1997"
+        }
+    },
+    "Otros Centros de Nivel Universitario": {
+        "Datos de identificación": {
+            "Código de la universidad": "000",
+            "Tipo": "Privada",
+            "CIF": "Q0000000J",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Estado"
+        },
+        "Datos de ubicación": {
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "2011",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "15/04/2011",
+            "Fecha publicación": "15/04/2011",
+            "Fecha entrada en Vigor :": ""
+        }
+    },
+    "Universidad a Distancia de Madrid": {
+        "Datos de identificación": {
+            "Código de la universidad": "074",
+            "Acrónimo": "UDIMA",
+            "Tipo": "Privada",
+            "CIF": "A81618894",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Carretera de La Coruña, KM.38,500 Vía de Servicio, nº 15",
+            "Código postal": "28400",
+            "Localidad": "Collado Villalba",
+            "Municipio": "Collado Villalba",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.udima.es",
+            "Teléfono 1": "918561699",
+            "Teléfono 2": "918561697"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Comunidad de Madrid",
+            "Año publicación": "2006",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "28/06/2006",
+            "Fecha publicación": "28/06/2006",
+            "Fecha entrada en Vigor": "29/06/2006"
+        }
+    },
+    "Universidad Alfonso X El Sabio": {
+        "Datos de identificación": {
+            "Código de la universidad": "047",
+            "Acrónimo": "UAX",
+            "Tipo": "Privada",
+            "CIF": "A78518529",
+            "Código Erasmus": "E MADRID17",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Campus de Villanueva de la Cañada. Avenida de la Universidad, 1",
+            "Código postal": "28691",
+            "Localidad": "Villanueva de la Cañada",
+            "Municipio": "Villanueva de la Cañada",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.uax.es",
+            "E-mail": "info@uax.es",
+            "Teléfono 1": "918109200"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1993",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "20/04/1993",
+            "Fecha publicación": "20/04/1993",
+            "Fecha entrada en Vigor": "21/04/1993"
+        }
+    },
+    "Universidad Alfonso X el Sabio Mare Nostrum": {
+        "Datos de identificación": {
+            "Código de la universidad": "106",
+            "Tipo": "Privada",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Código postal": "29004",
+            "Localidad": "Málaga",
+            "Municipio": "Málaga",
+            "Provincia": "Málaga",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Junta de Andalucía",
+            "Año publicación": "2024",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "26/07/2024",
+            "Fecha publicación": "06/08/2024",
+            "Fecha entrada en Vigor": "07/08/2024"
+        }
+    },
+    "Universidad Antonio de Nebrija": {
+        "Datos de identificación": {
+            "Código de la universidad": "052",
+            "Acrónimo": "UANE",
+            "Tipo": "Privada",
+            "CIF": "A78094158",
+            "Código Erasmus": "E MADRID12",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Campus de La Berzosa. Calle Hostal, s/n",
+            "Código postal": "28240",
+            "Localidad": "Hoyo de Manzanares",
+            "Municipio": "Hoyo de Manzanares",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.nebrija.com",
+            "E-mail": "informa@nebrija.es",
+            "Teléfono 1": "902321322",
+            "Fax": "914521110"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1995",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "18/07/1995",
+            "Fecha publicación": "18/07/1995",
+            "Fecha entrada en Vigor": "19/07/1995"
+        }
+    },
+    "Universidad Autónoma de Barcelona": {
+        "Datos de identificación": {
+            "Código de la universidad": "022",
+            "Acrónimo": "UAB",
+            "Tipo": "Pública",
+            "CIF": "Q0818002H",
+            "Código Erasmus": "E BARCELO02",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Campus de Bellaterra",
+            "Código postal": "08193",
+            "Localidad": "Cerdanyola del Vallès",
+            "Municipio": "Cerdanyola del Vallès",
+            "Provincia": "Barcelona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.uab.es",
+            "E-mail": "informacio@uab.es",
+            "Teléfono 1": "935811000",
+            "Teléfono 2": "935811111",
+            "Fax": "935812595"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1968",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "07/06/1968",
+            "Fecha publicación": "07/06/1968",
+            "Fecha entrada en Vigor": "08/06/1968"
+        }
+    },
+    "Universidad Autónoma de Madrid": {
+        "Datos de identificación": {
+            "Código de la universidad": "023",
+            "Acrónimo": "UAM",
+            "Tipo": "Pública",
+            "CIF": "Q2818013A",
+            "Código Erasmus": "E MADRID04",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Ciudad Universitaria de Cantoblanco",
+            "Código postal": "28049",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.uam.es",
+            "E-mail": "informacion.general@uam.es",
+            "Teléfono 1": "914975000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1968",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "07/06/1968",
+            "Fecha publicación": "07/06/1968",
+            "Fecha entrada en Vigor": "08/06/1968"
+        }
+    },
+    "Universidad Camilo José Cela": {
+        "Datos de identificación": {
+            "Código de la universidad": "065",
+            "Acrónimo": "UCJC",
+            "Tipo": "Privada",
+            "CIF": "A79336947",
+            "Código Erasmus": "E MADRID33",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Castillo de Alarcón, 49. Urbanización Villafranca del Castillo",
+            "Código postal": "28692",
+            "Localidad": "Villanueva de la Cañada",
+            "Municipio": "Villanueva de la Cañada",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.ucjc.edu",
+            "E-mail": "info@ucjc.edu",
+            "Teléfono 1": "918153131",
+            "Fax": "918153130"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1999",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "16/04/1999",
+            "Fecha publicación": "16/04/1999",
+            "Fecha entrada en Vigor": "17/04/1999"
+        }
+    },
+    "Universidad Cardenal Herrera-CEU": {
+        "Datos de identificación": {
+            "Código de la universidad": "067",
+            "Acrónimo": "UCH",
+            "Tipo": "Privada",
+            "CIF": "G28423275",
+            "Código Erasmus": "E VALENCI08",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Valenciana"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "C/Assegadors, 2",
+            "Código postal": "46115",
+            "Localidad": "Alfara del Patriarca",
+            "Municipio": "Alfara del Patriarca",
+            "Provincia": "Valencia/València",
+            "Comunidad Autónoma": "Comunidad Valenciana"
+        },
+        "Datos complementarios": {
+            "URL": "www.uchceu.es/",
+            "Teléfono 1": "961369000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat Valenciana",
+            "Año publicación": "1999",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "07/12/1999",
+            "Fecha publicación": "07/12/1999",
+            "Fecha entrada en Vigor": "08/12/1999"
+        }
+    },
+    "Universidad Carlos III de Madrid": {
+        "Datos de identificación": {
+            "Código de la universidad": "036",
+            "Acrónimo": "UCAR",
+            "Tipo": "Pública",
+            "CIF": "Q2818029G",
+            "Código Erasmus": "E MADRID14",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Madrid, 126-128",
+            "Código postal": "28903",
+            "Localidad": "Getafe",
+            "Municipio": "Getafe",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.uc3m.es",
+            "E-mail": "futurosestudiantes@uc3m.es",
+            "Teléfono 1": "916249500"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1989",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "06/05/1989",
+            "Fecha publicación": "06/05/1989",
+            "Fecha entrada en Vigor": "07/05/1989"
+        }
+    },
+    "Universidad Católica de Valencia San Vicente Mártir": {
+        "Datos de identificación": {
+            "Código de la universidad": "072",
+            "Acrónimo": "UCV",
+            "Tipo": "Privada (de la Iglesia Católica)",
+            "CIF": "G97025787",
+            "Código Erasmus": "E VALENCI11",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Valenciana"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Guillem de Castro, 94",
+            "Código postal": "46001",
+            "Localidad": "Valencia",
+            "Municipio": "València",
+            "Provincia": "Valencia/València",
+            "Comunidad Autónoma": "Comunidad Valenciana"
+        },
+        "Datos complementarios": {
+            "URL": "www.ucv.es",
+            "Teléfono 1": "963637412"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat Valenciana",
+            "Año publicación": "2004",
+            "Tipo disposición": "Decreto Autonómico",
+            "Fecha disposición": "19/04/2004",
+            "Fecha publicación": "19/04/2004",
+            "Fecha entrada en Vigor": "20/04/2004"
+        }
+    },
+    "Universidad Católica San Antonio": {
+        "Datos de identificación": {
+            "Código de la universidad": "066",
+            "Acrónimo": "UCAM",
+            "Tipo": "Privada (de la Iglesia Católica)",
+            "CIF": "G30626303",
+            "Código Erasmus": "E MURCIA05",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Región de Murcia"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Campus de los Jerónimos, s/n Guadalupe",
+            "Código postal": "30107",
+            "Localidad": "Murcia",
+            "Municipio": "Murcia",
+            "Provincia": "Murcia",
+            "Comunidad Autónoma": "Región de Murcia"
+        },
+        "Datos complementarios": {
+            "URL": "www.ucam.edu",
+            "E-mail": "info@ucam.edu",
+            "Teléfono 1": "968278800"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Región de Murcia",
+            "Año publicación": "1999",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "04/06/1999",
+            "Fecha publicación": "04/06/1999",
+            "Fecha entrada en Vigor": "05/06/1999"
+        }
+    },
+    "Universidad Católica Santa Teresa de Jesús de Ávila": {
+        "Datos de identificación": {
+            "Código de la universidad": "059",
+            "Acrónimo": "UCAV",
+            "Tipo": "Privada (de la Iglesia Católica)",
+            "CIF": "R0500336C",
+            "Código Erasmus": "E AVILA01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Castilla y León"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "C/Canteros,s/n",
+            "Código postal": "05005",
+            "Localidad": "Ávila",
+            "Municipio": "Ávila",
+            "Provincia": "Ávila",
+            "Comunidad Autónoma": "Comunidad de Castilla y León"
+        },
+        "Datos complementarios": {
+            "URL": "www.ucavila.es",
+            "E-mail": "info@ucavila.es",
+            "Teléfono 1": "920251020",
+            "Fax": "920251030"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de Castilla y León",
+            "Año publicación": "1998",
+            "Tipo disposición": "Real Decreto",
+            "Fecha disposición": "23/06/1998",
+            "Fecha publicación": "23/06/1998",
+            "Fecha entrada en Vigor": "24/06/1998"
+        }
+    },
+    "Universidad CEU Fernando III": {
+        "Datos de identificación": {
+            "Código de la universidad": "102",
+            "Tipo": "Privada",
+            "CIF": "G90457367",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Glorieta Angel Herrera Oria, s/n",
+            "Código postal": "41930",
+            "Localidad": "Bormujos",
+            "Municipio": "Bormujos",
+            "Provincia": "Sevilla",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "uf3ceu.es"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Junta de Andalucía",
+            "Año publicación": "2023",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "03/10/2023",
+            "Fecha publicación": "09/10/2023",
+            "Fecha entrada en Vigor": "10/10/2023"
+        }
+    },
+    "Universidad Complutense de Madrid": {
+        "Datos de identificación": {
+            "Código de la universidad": "010",
+            "Acrónimo": "UCM",
+            "Tipo": "Pública",
+            "CIF": "Q2818014I",
+            "Código Erasmus": "E MADRID03",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Ciudad Universitaria, s/n",
+            "Código postal": "28040",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.ucm.es",
+            "E-mail": "infocom@ucm.es",
+            "Teléfono 1": "914520400"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1836",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "01/01/1836",
+            "Fecha publicación": "01/01/1836",
+            "Fecha entrada en Vigor": "02/01/1836"
+        }
+    },
+    "Universidad de A Coruña": {
+        "Datos de identificación": {
+            "Código de la universidad": "037",
+            "Acrónimo": "UDC",
+            "Tipo": "Pública",
+            "CIF": "Q6550005J",
+            "Código Erasmus": "E LA-CORU01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Galicia"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Maestranza, 9",
+            "Código postal": "15001",
+            "Localidad": "A Coruña",
+            "Municipio": "Coruña, A",
+            "Provincia": "A Coruña",
+            "Comunidad Autónoma": "Comunidad Autónoma de Galicia"
+        },
+        "Datos complementarios": {
+            "URL": "www.udc.es",
+            "E-mail": "reitor@udc.es",
+            "Teléfono 1": "981167000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diario Oficial de Galicia",
+            "Año publicación": "1989",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "16/08/1989",
+            "Fecha publicación": "16/08/1989",
+            "Fecha entrada en Vigor": "17/08/1989"
+        }
+    },
+    "Universidad de Alcalá": {
+        "Datos de identificación": {
+            "Código de la universidad": "029",
+            "Acrónimo": "UAH",
+            "Tipo": "Pública",
+            "CIF": "Q2818018J",
+            "Código Erasmus": "E ALCAL-H01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Plaza San Diego, s/n",
+            "Código postal": "28801",
+            "Localidad": "Alcalá de Henares",
+            "Municipio": "Alcalá de Henares",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.uah.es",
+            "E-mail": "ciu@uah.es",
+            "Teléfono 1": "918854000",
+            "Fax": "918854095"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1977",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "30/06/1977",
+            "Fecha publicación": "30/06/1977",
+            "Fecha entrada en Vigor": "01/07/1977"
+        }
+    },
+    "Universidad de Alicante": {
+        "Datos de identificación": {
+            "Código de la universidad": "001",
+            "Acrónimo": "UA",
+            "Tipo": "Pública",
+            "CIF": "Q0332001G",
+            "Código Erasmus": "E ALICANT01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Valenciana"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Carretera San Vicente del Raspeig, s/n",
+            "Código postal": "03690",
+            "Localidad": "San Vicente del Raspeig/Sant Vicent del Raspeig",
+            "Municipio": "Sant Vicent del Raspeig/San Vicente del Raspeig",
+            "Provincia": "Alicante/Alacant",
+            "Comunidad Autónoma": "Comunidad Valenciana"
+        },
+        "Datos complementarios": {
+            "URL": "www.ua.es/",
+            "E-mail": "informacio@ua.es",
+            "Teléfono 1": "965903400",
+            "Fax": "965903464"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1979",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "31/10/1979",
+            "Fecha publicación": "31/10/1979",
+            "Fecha entrada en Vigor": "01/11/1979"
+        }
+    },
+    "Universidad de Almería": {
+        "Datos de identificación": {
+            "Código de la universidad": "048",
+            "Acrónimo": "UAL",
+            "Tipo": "Pública",
+            "CIF": "Q5450008G",
+            "Código Erasmus": "E ALMERIA01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Carretera Sacramento, s/n",
+            "Código postal": "04120",
+            "Localidad": "La Cañada de San Urbano",
+            "Municipio": "Almería",
+            "Provincia": "Almería",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "www.ual.es",
+            "E-mail": "gprensa@ual.es",
+            "Teléfono 1": "950015570",
+            "Fax": "950015571"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Junta de Andalucía",
+            "Año publicación": "1993",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "06/07/1993",
+            "Fecha publicación": "06/07/1993",
+            "Fecha entrada en Vigor": "07/07/1993"
+        }
+    },
+    "Universidad de Barcelona": {
+        "Datos de identificación": {
+            "Código de la universidad": "004",
+            "Acrónimo": "UBA",
+            "Tipo": "Pública",
+            "CIF": "Q0818001J",
+            "Código Erasmus": "E BARCELO01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Gran Via de Les Corts Catalanes, 585",
+            "Código postal": "08007",
+            "Localidad": "Barcelona",
+            "Municipio": "Barcelona",
+            "Provincia": "Barcelona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.ub.es",
+            "E-mail": "comunicacio@ub.edu",
+            "Teléfono 1": "934035417",
+            "Fax": "934035357"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1450",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "03/11/1450",
+            "Fecha publicación": "03/11/1450",
+            "Fecha entrada en Vigor": "04/11/1450"
+        }
+    },
+    "Universidad de Burgos": {
+        "Datos de identificación": {
+            "Código de la universidad": "051",
+            "Acrónimo": "UBU",
+            "Tipo": "Pública",
+            "CIF": "Q0968272E",
+            "Código Erasmus": "E BURGOS01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Castilla y León"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Hospital del Rey s/n. Edificio de Rectorado",
+            "Código postal": "09001",
+            "Localidad": "Burgos",
+            "Municipio": "Burgos",
+            "Provincia": "Burgos",
+            "Comunidad Autónoma": "Comunidad de Castilla y León"
+        },
+        "Datos complementarios": {
+            "URL": "www.ubu.es",
+            "E-mail": "ubuestudiantes@ubu.es",
+            "Teléfono 1": "947258700",
+            "Teléfono 2": "947258742",
+            "Fax": "947258754"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1994",
+            "Tipo disposición": "Real Decreto",
+            "Fecha disposición": "27/05/1994",
+            "Fecha publicación": "27/05/1994",
+            "Fecha entrada en Vigor": "28/05/1994"
+        }
+    },
+    "Universidad de Cádiz": {
+        "Datos de identificación": {
+            "Código de la universidad": "005",
+            "Acrónimo": "UCA",
+            "Tipo": "Pública",
+            "CIF": "Q1132001G",
+            "Código Erasmus": "E CADIZ01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Ancha, 16",
+            "Código postal": "11001",
+            "Localidad": "Cádiz",
+            "Municipio": "Cádiz",
+            "Provincia": "Cádiz",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "www.uca.es",
+            "E-mail": "relaciones.institucionales@uca.es",
+            "Teléfono 1": "956015033",
+            "Fax": "956015026"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1979",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "31/10/1979",
+            "Fecha publicación": "31/10/1979",
+            "Fecha entrada en Vigor": "01/11/1979"
+        }
+    },
+    "Universidad de Cantabria": {
+        "Datos de identificación": {
+            "Código de la universidad": "016",
+            "Acrónimo": "UCN",
+            "Tipo": "Pública",
+            "CIF": "Q3918001C",
+            "Código Erasmus": "E SANTAND01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cantabria"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de los Castros, s/n",
+            "Código postal": "39005",
+            "Localidad": "Santander",
+            "Municipio": "Santander",
+            "Provincia": "Cantabria",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cantabria"
+        },
+        "Datos complementarios": {
+            "URL": "www.unican.es",
+            "E-mail": "acceso@unican.es",
+            "Teléfono 1": "942200984",
+            "Teléfono 2": "942201055",
+            "Fax": "942201070"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1972",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "18/08/1972",
+            "Fecha publicación": "30/09/1972",
+            "Fecha entrada en Vigor": "01/10/1972"
+        }
+    },
+    "Universidad de Castilla-La Mancha": {
+        "Datos de identificación": {
+            "Código de la universidad": "034",
+            "Acrónimo": "UCLM",
+            "Tipo": "Pública",
+            "CIF": "Q1368009E",
+            "Código Erasmus": "E CIUDA-R01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Castilla-La Mancha"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Altagracia, 50",
+            "Código postal": "13071",
+            "Localidad": "Ciudad Real",
+            "Municipio": "Ciudad Real",
+            "Provincia": "Ciudad Real",
+            "Comunidad Autónoma": "Comunidad Autónoma de Castilla-La Mancha"
+        },
+        "Datos complementarios": {
+            "URL": "www.uclm.es",
+            "E-mail": "webmaster@uclm.es",
+            "Teléfono 1": "902204100",
+            "Fax": "902204130"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1982",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "30/06/1982",
+            "Fecha publicación": "30/06/1982",
+            "Fecha entrada en Vigor": "01/07/1982"
+        }
+    },
+    "Universidad de Córdoba": {
+        "Datos de identificación": {
+            "Código de la universidad": "006",
+            "Acrónimo": "UCO",
+            "Tipo": "Pública",
+            "CIF": "Q1418001B",
+            "Código Erasmus": "E CORDOBA01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de Medina Azahara, 5",
+            "Código postal": "14071",
+            "Localidad": "Córdoba",
+            "Municipio": "Córdoba",
+            "Provincia": "Córdoba",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía",
+            "Mapa": "This page can't load Google Maps correctly.\nDo you own this website? OK"
+        },
+        "Datos complementarios": {
+            "URL": "www.uco.es",
+            "E-mail": "informacion@uco.es",
+            "Teléfono 1": "957218000",
+            "Fax": "957218222"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1972",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "18/08/1972",
+            "Fecha publicación": "30/09/1972",
+            "Fecha entrada en Vigor": "01/10/1972"
+        }
+    },
+    "Universidad de Deusto": {
+        "Datos de identificación": {
+            "Código de la universidad": "030",
+            "Acrónimo": "UDE",
+            "Tipo": "Privada (concordataria) *",
+            "CIF": "R4868004E",
+            "Código Erasmus": "E BILBAO02",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Estado"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de las Universidades 24",
+            "Código postal": "48007",
+            "Localidad": "Bilbao",
+            "Municipio": "Bilbao",
+            "Provincia": "Bizkaia",
+            "Comunidad Autónoma": "Comunidad Autónoma del País Vasco"
+        },
+        "Datos complementarios": {
+            "URL": "www.deusto.es",
+            "E-mail": "web@deusto.es",
+            "Teléfono 1": "944139000"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1886",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "01/01/1886",
+            "Fecha publicación": "01/01/1886",
+            "Fecha entrada en Vigor": "02/01/1886"
+        }
+    },
+    "Universidad de Diseño, Innovación y Tecnología (UDIT)": {
+        "Datos de identificación": {
+            "Código de la universidad": "100",
+            "Acrónimo": "UDIT",
+            "Tipo": "Privada",
+            "CIF": "B84014265",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de Alfonso XIII nº 97 y 99",
+            "Código postal": "28016",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "udit.es",
+            "Teléfono 1": "915 55 25 28"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Comunidad de Madrid",
+            "Año publicación": "2022",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "01/03/2022",
+            "Fecha publicación": "04/03/2022",
+            "Fecha entrada en Vigor": "05/03/2022"
+        }
+    },
+    "Universidad de Extremadura": {
+        "Datos de identificación": {
+            "Código de la universidad": "002",
+            "Acrónimo": "UEX",
+            "Tipo": "Pública",
+            "CIF": "Q0618001B",
+            "Código Erasmus": "E BADAJOZ01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Extremadura"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de Elvas, s/n",
+            "Código postal": "06071",
+            "Localidad": "Badajoz",
+            "Municipio": "Badajoz",
+            "Provincia": "Badajoz",
+            "Comunidad Autónoma": "Comunidad Autónoma de Extremadura"
+        },
+        "Datos complementarios": {
+            "URL": "www.unex.es",
+            "E-mail": "virtual@unex.es",
+            "Teléfono 1": "924289300",
+            "Fax": "924272983"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1973",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "18/05/1973",
+            "Fecha publicación": "18/05/1973",
+            "Fecha entrada en Vigor": "19/05/1973"
+        }
+    },
+    "Universidad de Girona": {
+        "Datos de identificación": {
+            "Código de la universidad": "043",
+            "Acrónimo": "UDG",
+            "Tipo": "Pública",
+            "CIF": "Q6750002E",
+            "Código Erasmus": "E GIRONA02",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Plaza Sant Domènec, 3. Edificio Les Àligues",
+            "Código postal": "17004",
+            "Localidad": "Girona",
+            "Municipio": "Girona",
+            "Provincia": "Girona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.udg.edu",
+            "E-mail": "informacio@udg.edu",
+            "Teléfono 1": "972418046",
+            "Fax": "972418031"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1992",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "03/03/1992",
+            "Fecha publicación": "03/03/1992",
+            "Fecha entrada en Vigor": "04/03/1992"
+        }
+    },
+    "Universidad de Granada": {
+        "Datos de identificación": {
+            "Código de la universidad": "008",
+            "Acrónimo": "UGR",
+            "Tipo": "Pública",
+            "CIF": "Q1818002F",
+            "Código Erasmus": "E GRANADA01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Cuesta del Hospicio, s/n",
+            "Código postal": "18015",
+            "Localidad": "Granada",
+            "Municipio": "Granada",
+            "Provincia": "Granada",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "www.ugr.es",
+            "E-mail": "csirc@ugr.es",
+            "Teléfono 1": "958243000",
+            "Fax": "958243066"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1531",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "01/01/1531",
+            "Fecha publicación": "01/01/1531",
+            "Fecha entrada en Vigor": "02/01/1531"
+        }
+    },
+    "Universidad de Huelva": {
+        "Datos de identificación": {
+            "Código de la universidad": "049",
+            "Acrónimo": "UHU",
+            "Tipo": "Pública",
+            "CIF": "Q7150008F",
+            "Código Erasmus": "E HUELVA01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Doctor Cantero Cuadrado, 6",
+            "Código postal": "21004",
+            "Localidad": "Huelva",
+            "Municipio": "Huelva",
+            "Provincia": "Huelva",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "www.uhu.es",
+            "E-mail": "www@uhu.es",
+            "Teléfono 1": "959218000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1993",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "25/08/1993",
+            "Fecha publicación": "25/08/1993",
+            "Fecha entrada en Vigor": "26/08/1993"
+        }
+    },
+    "Universidad de Jaén": {
+        "Datos de identificación": {
+            "Código de la universidad": "050",
+            "Acrónimo": "UJA",
+            "Tipo": "Pública",
+            "CIF": "Q7350006H",
+            "Código Erasmus": "E JAEN01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Campus de las Lagunillas, s/n",
+            "Código postal": "23071",
+            "Localidad": "Jaén",
+            "Municipio": "Jaén",
+            "Provincia": "Jaén",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "www.ujaen.es",
+            "Teléfono 1": "953212121",
+            "Fax": "953212239"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Junta de Andalucía",
+            "Año publicación": "1993",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "06/07/1993",
+            "Fecha publicación": "06/07/1993",
+            "Fecha entrada en Vigor": "07/07/1993"
+        }
+    },
+    "Universidad de La Laguna": {
+        "Datos de identificación": {
+            "Código de la universidad": "015",
+            "Acrónimo": "ULL",
+            "Tipo": "Pública",
+            "CIF": "Q3818001D",
+            "Código Erasmus": "E TENERIF01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Canarias"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Molinos de Agua, s/n",
+            "Código postal": "38207",
+            "Localidad": "Santa Cruz de Tenerife",
+            "Municipio": "Santa Cruz de Tenerife",
+            "Provincia": "Santa Cruz de Tenerife",
+            "Comunidad Autónoma": "Comunidad Autónoma de Canarias"
+        },
+        "Datos complementarios": {
+            "URL": "www.ull.es",
+            "E-mail": "prensa1@ull.es",
+            "Teléfono 1": "922319000",
+            "Teléfono 2": "922319001"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1792",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "11/03/1792",
+            "Fecha publicación": "11/03/1792",
+            "Fecha entrada en Vigor": "12/03/1792"
+        }
+    },
+    "Universidad de La Rioja": {
+        "Datos de identificación": {
+            "Código de la universidad": "045",
+            "Acrónimo": "UR",
+            "Tipo": "Pública",
+            "CIF": "Q2618002F",
+            "Código Erasmus": "E LOGRONO01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de la Rioja"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de La Paz , 93",
+            "Código postal": "26006",
+            "Localidad": "Logroño",
+            "Municipio": "Logroño",
+            "Provincia": "La Rioja",
+            "Comunidad Autónoma": "Comunidad Autónoma de la Rioja"
+        },
+        "Datos complementarios": {
+            "URL": "www.unirioja.es",
+            "E-mail": "sec.general@unirioja.es",
+            "Teléfono 1": "941299104",
+            "Fax": "941299120"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1992",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "19/06/1992",
+            "Fecha publicación": "19/06/1992",
+            "Fecha entrada en Vigor": "20/06/1992"
+        }
+    },
+    "Universidad de las Hespérides": {
+        "Datos de identificación": {
+            "Código de la universidad": "090",
+            "Acrónimo": ".h",
+            "Tipo": "Privada",
+            "CIF": "B76260785",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Canarias"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "C/de los Balcones, 10",
+            "Código postal": "35001",
+            "Localidad": "Las Palmas de Gran Canaria",
+            "Municipio": "Palmas de Gran Canaria, Las",
+            "Provincia": "Las Palmas",
+            "Comunidad Autónoma": "Comunidad Autónoma de Canarias"
+        },
+        "Datos complementarios": {
+            "URL": "hesperides.edu.es/"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de Canarias",
+            "Año publicación": "2019",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "09/04/2019",
+            "Fecha publicación": "22/04/2019",
+            "Fecha entrada en Vigor": "23/04/2019"
+        }
+    },
+    "Universidad de Las Palmas de Gran Canaria": {
+        "Datos de identificación": {
+            "Código de la universidad": "026",
+            "Acrónimo": "UPGC",
+            "Tipo": "Pública",
+            "CIF": "Q3518001G",
+            "Código Erasmus": "E LAS-PAL01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Canarias"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Juan de Quesada, nº 30",
+            "Código postal": "35001",
+            "Localidad": "Las Palmas de Gran Canaria",
+            "Municipio": "Palmas de Gran Canaria, Las",
+            "Provincia": "Las Palmas",
+            "Comunidad Autónoma": "Comunidad Autónoma de Canarias"
+        },
+        "Datos complementarios": {
+            "URL": "www.ulpgc.es",
+            "E-mail": "universidad@ulpgc.es",
+            "Teléfono 1": "928451000",
+            "Teléfono 2": "928451023",
+            "Fax": "928451022"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de Canarias",
+            "Año publicación": "1989",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "08/05/1989",
+            "Fecha publicación": "08/05/1989",
+            "Fecha entrada en Vigor": "09/05/1989"
+        }
+    },
+    "Universidad de León": {
+        "Datos de identificación": {
+            "Código de la universidad": "009",
+            "Acrónimo": "ULE",
+            "Tipo": "Pública",
+            "CIF": "Q2432001B",
+            "Código Erasmus": "E LEON01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Castilla y León"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avda. de la Facultad, 25",
+            "Código postal": "24071",
+            "Localidad": "León",
+            "Municipio": "León",
+            "Provincia": "León",
+            "Comunidad Autónoma": "Comunidad de Castilla y León"
+        },
+        "Datos complementarios": {
+            "URL": "www.unileon.es",
+            "E-mail": "webmaster@unileon.es",
+            "Teléfono 1": "987291000",
+            "Fax": "987291614"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1979",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "31/10/1979",
+            "Fecha publicación": "31/10/1979",
+            "Fecha entrada en Vigor": "01/11/1979"
+        }
+    },
+    "Universidad de Lleida": {
+        "Datos de identificación": {
+            "Código de la universidad": "044",
+            "Acrónimo": "UDL",
+            "Tipo": "Pública",
+            "CIF": "Q7550001G",
+            "Código Erasmus": "E LLEIDA01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Plaza Víctor Siurana, 1",
+            "Código postal": "25003",
+            "Localidad": "Lleida",
+            "Municipio": "Lleida",
+            "Provincia": "Lleida",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.udl.es/ca/es/",
+            "E-mail": "info@udl.cat",
+            "Teléfono 1": "973702000",
+            "Teléfono 2": "973003588"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1992",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "03/03/1992",
+            "Fecha publicación": "03/03/1992",
+            "Fecha entrada en Vigor": "04/03/1992"
+        }
+    },
+    "Universidad de Málaga": {
+        "Datos de identificación": {
+            "Código de la universidad": "011",
+            "Acrónimo": "UMA",
+            "Tipo": "Pública",
+            "CIF": "Q2918001E",
+            "Código Erasmus": "E MALAGA01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida Cervantes, 2",
+            "Código postal": "29071",
+            "Localidad": "Málaga",
+            "Municipio": "Málaga",
+            "Provincia": "Málaga",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "www.uma.es",
+            "E-mail": "informacion@uma.es",
+            "Teléfono 1": "952131000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1972",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "18/08/1972",
+            "Fecha publicación": "30/09/1972",
+            "Fecha entrada en Vigor": "01/10/1972"
+        }
+    },
+    "Universidad de Murcia": {
+        "Datos de identificación": {
+            "Código de la universidad": "012",
+            "Acrónimo": "UMU",
+            "Tipo": "Pública",
+            "CIF": "Q3018001B",
+            "Código Erasmus": "E MURCIA01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Región de Murcia"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avda. Teniente Flomesta, nº 5",
+            "Código postal": "30003",
+            "Localidad": "Murcia",
+            "Municipio": "Murcia",
+            "Provincia": "Murcia",
+            "Comunidad Autónoma": "Región de Murcia"
+        },
+        "Datos complementarios": {
+            "URL": "www.um.es",
+            "E-mail": "rector@um.es",
+            "Teléfono 1": "968363000"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1272",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "06/04/1272",
+            "Fecha publicación": "06/04/1272",
+            "Fecha entrada en Vigor": "07/04/1272"
+        }
+    },
+    "Universidad de Navarra": {
+        "Datos de identificación": {
+            "Código de la universidad": "031",
+            "Acrónimo": "UN",
+            "Tipo": "Privada (concordataria) *",
+            "CIF": "R3168001J",
+            "Código Erasmus": "E PAMPLON01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Estado"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Campus universitario",
+            "Código postal": "31080",
+            "Localidad": "Pamplona/Iruña",
+            "Municipio": "Pamplona/Iruña",
+            "Provincia": "Navarra",
+            "Comunidad Autónoma": "Comunidad Foral de Navarra"
+        },
+        "Datos complementarios": {
+            "URL": "www.unav.es",
+            "E-mail": "info@unav.es",
+            "Teléfono 1": "948425600"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1952",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "17/10/1952",
+            "Fecha publicación": "17/10/1952",
+            "Fecha entrada en Vigor": "18/10/1952"
+        }
+    },
+    "Universidad de Oviedo": {
+        "Datos de identificación": {
+            "Código de la universidad": "013",
+            "Acrónimo": "UOV",
+            "Tipo": "Pública",
+            "CIF": "Q3318001I",
+            "Código Erasmus": "E OVIEDO01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Principado de Asturias"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle San Francisco, 3",
+            "Código postal": "33003",
+            "Localidad": "Oviedo",
+            "Municipio": "Oviedo",
+            "Provincia": "Asturias",
+            "Comunidad Autónoma": "Principado de Asturias"
+        },
+        "Datos complementarios": {
+            "URL": "www.uniovi.es",
+            "E-mail": "rectorado@uniovi.es",
+            "Teléfono 1": "985104058",
+            "Teléfono 2": "985104060"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1608",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "21/09/1608",
+            "Fecha publicación": "21/09/1608",
+            "Fecha entrada en Vigor": "22/09/1608"
+        }
+    },
+    "Universidad de Salamanca": {
+        "Datos de identificación": {
+            "Código de la universidad": "014",
+            "Acrónimo": "USAL",
+            "Tipo": "Pública",
+            "CIF": "Q3718001E",
+            "Código Erasmus": "E SALAMAN02",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Castilla y León"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Patio de Escuelas 1",
+            "Código postal": "37008",
+            "Localidad": "Salamanca",
+            "Municipio": "Salamanca",
+            "Provincia": "Salamanca",
+            "Comunidad Autónoma": "Comunidad de Castilla y León"
+        },
+        "Datos complementarios": {
+            "URL": "www.usal.es",
+            "E-mail": "infogral@usal.es",
+            "Teléfono 1": "923294400",
+            "Fax": "923294502"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1218",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "01/01/1218",
+            "Fecha publicación": "01/01/1218",
+            "Fecha entrada en Vigor": "02/01/1218"
+        }
+    },
+    "Universidad de Santiago de Compostela": {
+        "Datos de identificación": {
+            "Código de la universidad": "007",
+            "Acrónimo": "USC",
+            "Tipo": "Pública",
+            "CIF": "Q1518001A",
+            "Código Erasmus": "E SANTIAG01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Galicia"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Plaza del Obradoiro, s/n",
+            "Código postal": "15782",
+            "Localidad": "Santiago de Compostela",
+            "Municipio": "Santiago de Compostela",
+            "Provincia": "A Coruña",
+            "Comunidad Autónoma": "Comunidad Autónoma de Galicia",
+            "Mapa": "This page can't load Google Maps correctly.\nDo you own this website? OK"
+        },
+        "Datos complementarios": {
+            "URL": "www.usc.es",
+            "E-mail": "reitor@usc.es",
+            "Teléfono 1": "981563100",
+            "Fax": "981588522"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1504",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "01/01/1504",
+            "Fecha publicación": "01/01/1504",
+            "Fecha entrada en Vigor": "02/01/1504"
+        }
+    },
+    "Universidad de Sevilla": {
+        "Datos de identificación": {
+            "Código de la universidad": "017",
+            "Acrónimo": "USE",
+            "Tipo": "Pública",
+            "CIF": "Q4118001I",
+            "Código Erasmus": "E SEVILLA01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle San Fernando, 4",
+            "Código postal": "41004",
+            "Localidad": "Sevilla",
+            "Municipio": "Sevilla",
+            "Provincia": "Sevilla",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "www.us.es",
+            "E-mail": "gabiprensa@us.es",
+            "Teléfono 1": "954551000",
+            "Teléfono 2": "954551000"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1505",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "01/01/1505",
+            "Fecha publicación": "01/01/1505",
+            "Fecha entrada en Vigor": "02/01/1505"
+        }
+    },
+    "Universidad de Valladolid": {
+        "Datos de identificación": {
+            "Código de la universidad": "019",
+            "Acrónimo": "UVA",
+            "Tipo": "Pública",
+            "CIF": "Q4718001C",
+            "Código Erasmus": "E VALLADO01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Castilla y León"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Plaza de Sta. Cruz, nº 8",
+            "Código postal": "47002",
+            "Localidad": "Valladolid",
+            "Municipio": "Valladolid",
+            "Provincia": "Valladolid",
+            "Comunidad Autónoma": "Comunidad de Castilla y León"
+        },
+        "Datos complementarios": {
+            "E-mail": "valladolid@uva.es",
+            "Teléfono 1": "983423000",
+            "Fax": "983423234"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1241",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "01/01/1241",
+            "Fecha publicación": "01/01/1241",
+            "Fecha entrada en Vigor": "01/01/1241"
+        }
+    },
+    "Universidad de Vic-Universidad Central de Catalunya": {
+        "Datos de identificación": {
+            "Código de la universidad": "060",
+            "Acrónimo": "UVIC",
+            "Tipo": "Privada",
+            "CIF": "G58020124",
+            "Código Erasmus": "E VIC01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Campus de Miramarges. Carrer de la Sagrada Familia, 7",
+            "Código postal": "08500",
+            "Localidad": "Vic",
+            "Municipio": "Vic",
+            "Provincia": "Barcelona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.uvic-ucc.cat/es",
+            "E-mail": "info@uvic.cat",
+            "Teléfono 1": "938861222",
+            "Fax": "938891063"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1997",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "12/06/1997",
+            "Fecha publicación": "12/06/1997",
+            "Fecha entrada en Vigor": "13/06/1997"
+        }
+    },
+    "Universidad de Vigo": {
+        "Datos de identificación": {
+            "Código de la universidad": "038",
+            "Acrónimo": "UVI",
+            "Tipo": "Pública",
+            "CIF": "Q8650002B",
+            "Código Erasmus": "E VIGO01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Galicia"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Campus Universitario",
+            "Código postal": "36310",
+            "Localidad": "Vigo",
+            "Municipio": "Vigo",
+            "Provincia": "Pontevedra",
+            "Comunidad Autónoma": "Comunidad Autónoma de Galicia"
+        },
+        "Datos complementarios": {
+            "URL": "www.uvigo.es",
+            "E-mail": "informacion@uvigo.es",
+            "Teléfono 1": "986812000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diario Oficial de Galicia",
+            "Año publicación": "1989",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "16/08/1989",
+            "Fecha publicación": "16/08/1989",
+            "Fecha entrada en Vigor": "17/08/1989"
+        }
+    },
+    "Universidad de Zaragoza": {
+        "Datos de identificación": {
+            "Código de la universidad": "021",
+            "Acrónimo": "UZA",
+            "Tipo": "Pública",
+            "CIF": "Q5018001G",
+            "Código Erasmus": "E ZARAGOZ01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Aragón"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Pedro Cerbuna, 12 - Ciudad Universitaria",
+            "Código postal": "50009",
+            "Localidad": "Zaragoza",
+            "Municipio": "Zaragoza",
+            "Provincia": "Zaragoza",
+            "Comunidad Autónoma": "Comunidad Autónoma de Aragón",
+            "Mapa": "This page can't load Google Maps correctly.\nDo you own this website? OK"
+        },
+        "Datos complementarios": {
+            "E-mail": "ciu@unizar.es",
+            "Teléfono 1": "976761001",
+            "Fax": "976761009"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1542",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "01/01/1542",
+            "Fecha publicación": "01/01/1542",
+            "Fecha entrada en Vigor": "01/01/1542"
+        }
+    },
+    "Universidad del Atlántico Medio": {
+        "Datos de identificación": {
+            "Código de la universidad": "085",
+            "Acrónimo": "UNAM",
+            "Tipo": "Privada",
+            "CIF": "B09967399",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Canarias"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Carretera de Quilmes,37",
+            "Código postal": "35017",
+            "Localidad": "Tafira Baja",
+            "Municipio": "Palmas de Gran Canaria, Las",
+            "Provincia": "Las Palmas",
+            "Comunidad Autónoma": "Comunidad Autónoma de Canarias",
+            "Mapa": "This page can't load Google Maps correctly.\nDo you own this website? OK"
+        },
+        "Datos complementarios": {
+            "URL": "www.universidadatlanticomedio.es",
+            "Teléfono 1": "828 019 019",
+            "Teléfono 2": "902 001 002"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de Canarias",
+            "Año publicación": "2015",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "26/03/2015",
+            "Fecha publicación": "31/03/2015",
+            "Fecha entrada en Vigor": "01/04/2015"
+        }
+    },
+    "Universidad del País Vasco/Euskal Herriko Unibertsitatea": {
+        "Datos de identificación": {
+            "Código de la universidad": "020",
+            "Acrónimo": "UPV / EHU",
+            "Tipo": "Pública",
+            "CIF": "Q4818001B",
+            "Código Erasmus": "E BILBAO01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma del País Vasco"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Bº de Sarriena, s/n",
+            "Código postal": "48940",
+            "Localidad": "Elexalde",
+            "Municipio": "Leioa",
+            "Provincia": "Bizkaia",
+            "Comunidad Autónoma": "Comunidad Autónoma del País Vasco"
+        },
+        "Datos complementarios": {
+            "URL": "www.ehu.es",
+            "E-mail": "rgzadmin@lg.ehu.es",
+            "Teléfono 1": "946012000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1968",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "07/06/1968",
+            "Fecha publicación": "07/06/1968",
+            "Fecha entrada en Vigor": "08/06/1968"
+        }
+    },
+    "Universidad Euneiz": {
+        "Datos de identificación": {
+            "Código de la universidad": "098",
+            "Tipo": "Privada",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad Autónoma del País Vasco"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Paseo de la Biosfera nº 6",
+            "Código postal": "01013",
+            "Localidad": "Vitoria-Gasteiz",
+            "Municipio": "Vitoria-Gasteiz",
+            "Provincia": "Araba/Álava",
+            "Comunidad Autónoma": "Comunidad Autónoma del País Vasco"
+        },
+        "Datos complementarios": {
+            "URL": "www.euneiz.com",
+            "E-mail": "info@euneiz.com"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del País Vasco",
+            "Año publicación": "2021",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "11/11/2021",
+            "Fecha publicación": "22/11/2021",
+            "Fecha entrada en Vigor": "23/11/2021"
+        }
+    },
+    "Universidad Europea de Andalucía": {
+        "Datos de identificación": {
+            "Código de la universidad": "107",
+            "Tipo": "Privada",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Código postal": "29010",
+            "Localidad": "Málaga",
+            "Municipio": "Málaga",
+            "Provincia": "Málaga",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Junta de Andalucía",
+            "Año publicación": "2024",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "26/07/2024",
+            "Fecha publicación": "06/08/2024",
+            "Fecha entrada en Vigor": "07/08/2024"
+        }
+    },
+    "Universidad Europea de Canarias": {
+        "Datos de identificación": {
+            "Código de la universidad": "079",
+            "Acrónimo": "UEC",
+            "Tipo": "Privada",
+            "CIF": "B57257263",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Canarias"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Casa Salazar. Calle Inocencio García 1",
+            "Código postal": "38311",
+            "Localidad": "La Orotava",
+            "Municipio": "Orotava, La",
+            "Provincia": "Santa Cruz de Tenerife",
+            "Comunidad Autónoma": "Comunidad Autónoma de Canarias"
+        },
+        "Datos complementarios": {
+            "URL": "canarias.universidadeuropea.es/",
+            "E-mail": "admisiones.canarias@uem.es",
+            "Teléfono 1": "922 985 050"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de Canarias",
+            "Año publicación": "2010",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "15/07/2010",
+            "Fecha publicación": "27/07/2010",
+            "Fecha entrada en Vigor": "28/07/2010"
+        }
+    },
+    "Universidad Europea de Madrid": {
+        "Datos de identificación": {
+            "Código de la universidad": "053",
+            "Acrónimo": "UEM",
+            "Tipo": "Privada",
+            "CIF": "A79122305",
+            "Código Erasmus": "E MADRID18",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Tajo, s/n. Urbanización El Bosque",
+            "Código postal": "28670",
+            "Localidad": "Villaviciosa de Odón",
+            "Municipio": "Villaviciosa de Odón",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "madrid.universidadeuropea.es/",
+            "E-mail": "uem@uem.es",
+            "Teléfono 1": "902377773",
+            "Teléfono 2": "912115200",
+            "Fax": "916168265"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1995",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "18/07/1995",
+            "Fecha publicación": "18/07/1995",
+            "Fecha entrada en Vigor": "19/07/1995"
+        }
+    },
+    "Universidad Europea de Valencia": {
+        "Datos de identificación": {
+            "Código de la universidad": "082",
+            "Acrónimo": "UEV",
+            "Tipo": "Privada",
+            "CIF": "B97934467",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad Valenciana"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de Aragón, 30",
+            "Código postal": "46021",
+            "Localidad": "Valencia",
+            "Municipio": "València",
+            "Provincia": "Valencia/València",
+            "Comunidad Autónoma": "Comunidad Valenciana"
+        },
+        "Datos complementarios": {
+            "URL": "valencia.universidadeuropea.es/",
+            "Teléfono 1": "902 930 937"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat Valenciana",
+            "Año publicación": "2012",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "04/12/2012",
+            "Fecha publicación": "07/12/2012",
+            "Fecha entrada en Vigor": "08/12/2012"
+        }
+    },
+    "Universidad Europea del Atlántico": {
+        "Datos de identificación": {
+            "Código de la universidad": "083",
+            "Acrónimo": "UA",
+            "Tipo": "Privada",
+            "CIF": "G39764972",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cantabria"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "C/ Isabel Torres 21",
+            "Código postal": "39011",
+            "Localidad": "Santander",
+            "Municipio": "Santander",
+            "Provincia": "Cantabria",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cantabria"
+        },
+        "Datos complementarios": {
+            "URL": "www.uneatlantico.es",
+            "E-mail": "info@uneatlantico.es",
+            "Teléfono 1": "942 244 244"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de Cantabria",
+            "Año publicación": "2013",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "05/07/2013",
+            "Fecha publicación": "15/07/2013",
+            "Fecha entrada en Vigor": "16/07/2013"
+        }
+    },
+    "Universidad Europea Miguel de Cervantes": {
+        "Datos de identificación": {
+            "Código de la universidad": "069",
+            "Acrónimo": "UEMC",
+            "Tipo": "Privada",
+            "CIF": "A47402821",
+            "Código Erasmus": "E VALLADO03",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Castilla y León"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "C/Padre Julio Chevalier, n°2",
+            "Código postal": "47012",
+            "Localidad": "Valladolid",
+            "Municipio": "Valladolid",
+            "Provincia": "Valladolid",
+            "Comunidad Autónoma": "Comunidad de Castilla y León"
+        },
+        "Datos complementarios": {
+            "URL": "www.uemc.es",
+            "E-mail": "info@uemc.edu",
+            "Teléfono 1": "983228508",
+            "Fax": "983278958"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "2002",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "05/07/2002",
+            "Fecha publicación": "05/07/2002",
+            "Fecha entrada en Vigor": "06/07/2002"
+        }
+    },
+    "Universidad Fernando Pessoa-Canarias (UFP-C)": {
+        "Datos de identificación": {
+            "Código de la universidad": "084",
+            "Acrónimo": "UFPC",
+            "Tipo": "Privada",
+            "CIF": "B76075647",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Canarias"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Alcalde Francisco Hernández González, 28",
+            "Código postal": "35001",
+            "Localidad": "Santa María de Guía",
+            "Municipio": "Santa María de Guía de Gran Canaria",
+            "Provincia": "Las Palmas",
+            "Comunidad Autónoma": "Comunidad Autónoma de Canarias"
+        },
+        "Datos complementarios": {
+            "URL": "www.ufpcanarias.org",
+            "E-mail": "informacion@ufpcanarias.es",
+            "Teléfono 1": "928313420"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de Canarias",
+            "Año publicación": "2014",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "15/05/2014",
+            "Fecha publicación": "22/05/2014",
+            "Fecha entrada en Vigor": "23/05/2014"
+        }
+    },
+    "Universidad Francisco de Vitoria": {
+        "Datos de identificación": {
+            "Código de la universidad": "068",
+            "Acrónimo": "UFV",
+            "Tipo": "Privada",
+            "CIF": "G80480197",
+            "Código Erasmus": "E MADRID28",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Ctra. M-515, Pozuelo-Majadahonda, Km. 1800",
+            "Código postal": "28223",
+            "Localidad": "Pozuelo de Alarcón",
+            "Municipio": "Pozuelo de Alarcón",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.ufv.es",
+            "Teléfono 1": "913510303",
+            "Fax": "917091555"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Comunidad de Madrid",
+            "Año publicación": "2001",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "11/07/2001",
+            "Fecha publicación": "11/07/2001",
+            "Fecha entrada en Vigor": "12/07/2001"
+        }
+    },
+    "Universidad Intercontinental de la Empresa": {
+        "Datos de identificación": {
+            "Código de la universidad": "097",
+            "Acrónimo": "UIE",
+            "Tipo": "Privada",
+            "CIF": "G70577747",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Galicia"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Rua nova, 33",
+            "Código postal": "15705",
+            "Localidad": "Santiago de Compostela",
+            "Municipio": "Santiago de Compostela",
+            "Provincia": "A Coruña",
+            "Comunidad Autónoma": "Comunidad Autónoma de Galicia"
+        },
+        "Datos complementarios": {
+            "URL": "uie.edu"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diario Oficial de Galicia",
+            "Año publicación": "2021",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "15/07/2021",
+            "Fecha publicación": "21/07/2021",
+            "Fecha entrada en Vigor": "22/07/2021"
+        }
+    },
+    "Universidad Internacional de Andalucía": {
+        "Datos de identificación": {
+            "Código de la universidad": "063",
+            "Acrónimo": "UNIA",
+            "Tipo": "Pública",
+            "CIF": "Q7350007F",
+            "Código Erasmus": "E SEVILLA 05",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Monasterio Santa María de las Cuevas. C/Américo Vespucio, 2, Isla de La Cartuja",
+            "Código postal": "41092",
+            "Localidad": "Sevilla",
+            "Municipio": "Sevilla",
+            "Provincia": "Sevilla",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "E-mail": "postgrado@unia.es",
+            "Teléfono 1": "954462299",
+            "Fax": "954462288"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Junta de Andalucía",
+            "Año publicación": "2013",
+            "Tipo disposición": "Decreto Legislativo",
+            "Fecha disposición": "08/01/2013",
+            "Fecha publicación": "11/01/2013",
+            "Fecha entrada en Vigor": "12/01/2013"
+        }
+    },
+    "Universidad Internacional de la Empresa": {
+        "Datos de identificación": {
+            "Código de la universidad": "094",
+            "Acrónimo": "UNIE",
+            "Tipo": "Privada",
+            "CIF": "B64719446",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Arapiles nº 14",
+            "Código postal": "28015",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.universidadunie.com",
+            "Teléfono 1": "919 032 201"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Comunidad de Madrid",
+            "Año publicación": "2020",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "25/11/2020",
+            "Fecha publicación": "27/11/2020",
+            "Fecha entrada en Vigor": "28/11/2020"
+        }
+    },
+    "Universidad Internacional de La Rioja": {
+        "Datos de identificación": {
+            "Código de la universidad": "077",
+            "Acrónimo": "UNIR",
+            "Tipo": "Privada",
+            "CIF": "A26430439",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad Autónoma de la Rioja"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de la Paz, 137",
+            "Código postal": "26006",
+            "Localidad": "Logroño",
+            "Municipio": "Logroño",
+            "Provincia": "La Rioja",
+            "Comunidad Autónoma": "Comunidad Autónoma de la Rioja"
+        },
+        "Datos complementarios": {
+            "URL": "www.unir.net",
+            "E-mail": "info@unir.net",
+            "Teléfono 1": "941 209 743"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de La Rioja",
+            "Año publicación": "2009",
+            "Tipo disposición": "Decreto Autonómico",
+            "Fecha disposición": "31/07/2009",
+            "Fecha publicación": "05/08/2009",
+            "Fecha entrada en Vigor": "05/08/2009"
+        }
+    },
+    "Universidad Internacional Isabel I de Castilla": {
+        "Datos de identificación": {
+            "Código de la universidad": "080",
+            "Acrónimo": "UI1",
+            "Tipo": "Privada",
+            "CIF": "A09515412",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Castilla y León"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Fernán González, 76",
+            "Código postal": "09003",
+            "Localidad": "Burgos",
+            "Municipio": "Burgos",
+            "Provincia": "Burgos",
+            "Comunidad Autónoma": "Comunidad de Castilla y León"
+        },
+        "Datos complementarios": {
+            "URL": "www.ui1.es/",
+            "E-mail": "info@ui1.es",
+            "Teléfono 1": "947671731"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de Castilla y León",
+            "Año publicación": "2011",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "22/03/2011",
+            "Fecha publicación": "31/03/2011",
+            "Fecha entrada en Vigor": "20/04/2011"
+        }
+    },
+    "Universidad Internacional Menéndez Pelayo": {
+        "Datos de identificación": {
+            "Código de la universidad": "071",
+            "Acrónimo": "UIMP",
+            "Tipo": "Pública",
+            "CIF": "Q2818022B",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Estado"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Isaac Peral, 23",
+            "Código postal": "28040",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.uimp.es",
+            "Teléfono 1": "915920600",
+            "Fax": "915430897"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1945",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "21/10/1945",
+            "Fecha publicación": "21/10/1945",
+            "Fecha entrada en Vigor": "22/10/1945"
+        }
+    },
+    "Universidad Internacional Villanueva": {
+        "Datos de identificación": {
+            "Código de la universidad": "088",
+            "Acrónimo": "UV",
+            "Tipo": "Privada",
+            "CIF": "A86787850",
+            "Con ánimo de lucro": "Sí",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "C/ Costa Brava 2 y 6",
+            "Código postal": "28034",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.villanueva.edu",
+            "Teléfono 1": "917 340 413"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Comunidad de Madrid",
+            "Año publicación": "2019",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "20/03/2019",
+            "Fecha publicación": "28/03/2019",
+            "Fecha entrada en Vigor": "29/03/2019"
+        }
+    },
+    "Universidad Jaume I de Castellón": {
+        "Datos de identificación": {
+            "Código de la universidad": "040",
+            "Acrónimo": "UJI",
+            "Tipo": "Pública",
+            "CIF": "Q6250003H",
+            "Código Erasmus": "E CASTELL01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Valenciana"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de Vicent Sos Baynat, s/n",
+            "Código postal": "12071",
+            "Localidad": "Castellón de la Plana",
+            "Municipio": "Castelló de la Plana",
+            "Provincia": "Castellón/Castelló",
+            "Comunidad Autónoma": "Comunidad Valenciana",
+            "Mapa": "This page can't load Google Maps correctly.\nDo you own this website? OK"
+        },
+        "Datos complementarios": {
+            "URL": "www.uji.es",
+            "E-mail": "info@uji.es",
+            "Teléfono 1": "964728000",
+            "Fax": "964728838"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat Valenciana",
+            "Año publicación": "1991",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "27/02/1991",
+            "Fecha publicación": "27/02/1991",
+            "Fecha entrada en Vigor": "28/02/1991"
+        }
+    },
+    "Universidad Loyola Andalucía": {
+        "Datos de identificación": {
+            "Código de la universidad": "081",
+            "Acrónimo": "ULA",
+            "Tipo": "Privada",
+            "CIF": "G14894158",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de las Universidades, s/n",
+            "Código postal": "41704",
+            "Localidad": "Dos Hermanas",
+            "Municipio": "Dos Hermanas",
+            "Provincia": "Sevilla",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "www.uloyola.es",
+            "E-mail": "sgeneral@uloyola.es",
+            "Teléfono 1": "957222110",
+            "Teléfono 2": "954936111",
+            "Fax": "957222101"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Junta de Andalucía",
+            "Año publicación": "2011",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "16/12/2011",
+            "Fecha publicación": "27/12/2011",
+            "Fecha entrada en Vigor": "28/12/2011"
+        }
+    },
+    "Universidad Miguel Hernández de Elche": {
+        "Datos de identificación": {
+            "Código de la universidad": "055",
+            "Acrónimo": "UMH",
+            "Tipo": "Pública",
+            "CIF": "Q5350015C",
+            "Código Erasmus": "E ELCHE01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Valenciana"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida de la Universidad, s/n",
+            "Código postal": "03202",
+            "Localidad": "Elche/Elx",
+            "Municipio": "Elx/Elche",
+            "Provincia": "Alicante/Alacant",
+            "Comunidad Autónoma": "Comunidad Valenciana"
+        },
+        "Datos complementarios": {
+            "URL": "www.umh.es",
+            "E-mail": "info@umh.es",
+            "Teléfono 1": "966658500"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat Valenciana",
+            "Año publicación": "1996",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "30/12/1996",
+            "Fecha publicación": "30/12/1996",
+            "Fecha entrada en Vigor": "31/12/1996"
+        }
+    },
+    "Universidad Nacional de Educación a Distancia": {
+        "Datos de identificación": {
+            "Código de la universidad": "028",
+            "Acrónimo": "UNED",
+            "Tipo": "Pública",
+            "CIF": "Q2818016D",
+            "Código Erasmus": "E MADRID01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Estado"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Bravo Murillo, 38",
+            "Código postal": "28015",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.uned.es",
+            "E-mail": "infouned@adm.uned.es",
+            "Teléfono 1": "91398600",
+            "Fax": "913988000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1972",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "09/09/1972",
+            "Fecha publicación": "09/09/1972",
+            "Fecha entrada en Vigor": "10/09/1972"
+        }
+    },
+    "Universidad Pablo de Olavide": {
+        "Datos de identificación": {
+            "Código de la universidad": "058",
+            "Acrónimo": "UPO",
+            "Tipo": "Pública",
+            "CIF": "Q9150016E",
+            "Código Erasmus": "E SEVILLA03",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Carretera de Utrera, km. 1",
+            "Código postal": "41013",
+            "Localidad": "Sevilla",
+            "Municipio": "Sevilla",
+            "Provincia": "Sevilla",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "www.upo.es",
+            "Teléfono 1": "954349200",
+            "Fax": "954349204"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Junta de Andalucía",
+            "Año publicación": "1997",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "03/07/1997",
+            "Fecha publicación": "03/07/1997",
+            "Fecha entrada en Vigor": "04/07/1997"
+        }
+    },
+    "Universidad Politécnica de Cartagena": {
+        "Datos de identificación": {
+            "Código de la universidad": "064",
+            "Acrónimo": "UPCT",
+            "Tipo": "Pública",
+            "CIF": "Q8050013E",
+            "Código Erasmus": "E MURCIA04",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Región de Murcia"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Pza. del Cronista Isidoro Valverde, Edif. La Milagrosa",
+            "Código postal": "30202",
+            "Localidad": "Cartagena",
+            "Municipio": "Cartagena",
+            "Provincia": "Murcia",
+            "Comunidad Autónoma": "Región de Murcia"
+        },
+        "Datos complementarios": {
+            "URL": "www.upct.es",
+            "E-mail": "gestion.academica@upct.es",
+            "Teléfono 1": "968325400"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Región de Murcia",
+            "Año publicación": "1998",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "08/08/1998",
+            "Fecha publicación": "08/08/1998",
+            "Fecha entrada en Vigor": "08/08/1998"
+        }
+    },
+    "Universidad Politécnica de Catalunya": {
+        "Datos de identificación": {
+            "Código de la universidad": "024",
+            "Acrónimo": "UPC",
+            "Tipo": "Pública",
+            "CIF": "Q0818003F",
+            "Código Erasmus": "E BARCELO03",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Jordi Girona, 31",
+            "Código postal": "08034",
+            "Localidad": "Barcelona",
+            "Municipio": "Barcelona",
+            "Provincia": "Barcelona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.upc.es",
+            "E-mail": "info@upc.edu",
+            "Teléfono 1": "934016200",
+            "Fax": "934016894"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1971",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "26/03/1971",
+            "Fecha publicación": "26/03/1971",
+            "Fecha entrada en Vigor": "27/03/1971"
+        }
+    },
+    "Universidad Politécnica de Madrid": {
+        "Datos de identificación": {
+            "Código de la universidad": "025",
+            "Acrónimo": "UPM",
+            "Tipo": "Pública",
+            "CIF": "Q2818015F",
+            "Código Erasmus": "E MADRID05",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Ramiro de Maeztu, 7",
+            "Código postal": "28040",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.upm.es",
+            "E-mail": "gabinete.rector@upm.es",
+            "Teléfono 1": "913366200",
+            "Fax": "913366173"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1971",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "26/03/1971",
+            "Fecha publicación": "26/03/1971",
+            "Fecha entrada en Vigor": "27/03/1971"
+        }
+    },
+    "Universidad Pompeu Fabra": {
+        "Datos de identificación": {
+            "Código de la universidad": "039",
+            "Acrónimo": "UPF",
+            "Tipo": "Pública",
+            "CIF": "Q5850017D",
+            "Código Erasmus": "E BARCELO15",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Plaça de la Mercè, 10-12",
+            "Código postal": "08002",
+            "Localidad": "Barcelona",
+            "Municipio": "Barcelona",
+            "Provincia": "Barcelona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.upf.edu",
+            "Teléfono 1": "935422000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat de Catalunya",
+            "Año publicación": "1990",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "22/06/1990",
+            "Fecha publicación": "22/06/1990",
+            "Fecha entrada en Vigor": "23/06/1990"
+        }
+    },
+    "Universidad Pontificia Comillas": {
+        "Datos de identificación": {
+            "Código de la universidad": "033",
+            "Acrónimo": "COMILLAS",
+            "Tipo": "Privada (concordataria) *",
+            "CIF": "R2800395B",
+            "Código Erasmus": "E MADRID02",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Estado"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Alberto Aguilera, 23",
+            "Código postal": "28015",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.upcomillas.es",
+            "E-mail": "info_secre@secretaria.upcomillas.es",
+            "Teléfono 1": "915422800",
+            "Fax": "915596569"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1890",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "16/12/1890",
+            "Fecha publicación": "16/12/1890",
+            "Fecha entrada en Vigor": "17/12/1890"
+        }
+    },
+    "Universidad Pontificia de Salamanca": {
+        "Datos de identificación": {
+            "Código de la universidad": "032",
+            "Acrónimo": "UPSA",
+            "Tipo": "Privada (concordataria) *",
+            "CIF": "R3700047H",
+            "Código Erasmus": "E SALAMAN01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Estado"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "C/ Compañía, 5",
+            "Código postal": "37002",
+            "Localidad": "Salamanca",
+            "Municipio": "Salamanca",
+            "Provincia": "Salamanca",
+            "Comunidad Autónoma": "Comunidad de Castilla y León"
+        },
+        "Datos complementarios": {
+            "URL": "www.upsa.es",
+            "E-mail": "webmaster@upsa.es",
+            "Teléfono 1": "923277102"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1940",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "15/09/1940",
+            "Fecha publicación": "15/09/1940",
+            "Fecha entrada en Vigor": "16/09/1940"
+        }
+    },
+    "Universidad Pública de Navarra": {
+        "Datos de identificación": {
+            "Código de la universidad": "035",
+            "Acrónimo": "UPNA",
+            "Tipo": "Pública",
+            "CIF": "Q3150012G",
+            "Código Erasmus": "E PAMPLON02",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Foral de Navarra"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Campus de Arrosadía",
+            "Código postal": "31006",
+            "Localidad": "Pamplona/Iruña",
+            "Municipio": "Pamplona/Iruña",
+            "Provincia": "Navarra",
+            "Comunidad Autónoma": "Comunidad Foral de Navarra"
+        },
+        "Datos complementarios": {
+            "URL": "www.unavarra.es",
+            "E-mail": "infoweb@unavarra.es",
+            "Teléfono 1": "948169000",
+            "Fax": "948169169"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1987",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "21/04/1987",
+            "Fecha publicación": "21/04/1987",
+            "Fecha entrada en Vigor": "22/04/1987"
+        }
+    },
+    "Universidad Ramón Llull": {
+        "Datos de identificación": {
+            "Código de la universidad": "041",
+            "Acrónimo": "URLL",
+            "Tipo": "Privada",
+            "CIF": "G59069740",
+            "Código Erasmus": "E BARCELO16",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Claravall, 1-3",
+            "Código postal": "08022",
+            "Localidad": "Barcelona",
+            "Municipio": "Barcelona",
+            "Provincia": "Barcelona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.url.edu",
+            "E-mail": "info@url.edu",
+            "Teléfono 1": "936022200",
+            "Teléfono 2": "902502050",
+            "Fax": "936022249"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat de Catalunya",
+            "Año publicación": "1991",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "22/05/1991",
+            "Fecha publicación": "22/05/1991",
+            "Fecha entrada en Vigor": "23/05/1991"
+        }
+    },
+    "Universidad Rey Juan Carlos": {
+        "Datos de identificación": {
+            "Código de la universidad": "056",
+            "Acrónimo": "URJC",
+            "Tipo": "Pública",
+            "CIF": "Q2803011B",
+            "Código Erasmus": "E MADRID26",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Tulipán, s/n",
+            "Código postal": "28933",
+            "Localidad": "Móstoles",
+            "Municipio": "Móstoles",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.urjc.es",
+            "E-mail": "info@urjc.es",
+            "Teléfono 1": "916655060",
+            "Fax": "916147120"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Comunidad de Madrid",
+            "Año publicación": "1996",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "17/07/1996",
+            "Fecha publicación": "17/07/1996",
+            "Fecha entrada en Vigor": "18/07/1996"
+        }
+    },
+    "Universidad Rovira i Virgili": {
+        "Datos de identificación": {
+            "Código de la universidad": "042",
+            "Acrónimo": "URV",
+            "Tipo": "Pública",
+            "CIF": "Q9350003A",
+            "Código Erasmus": "E TARRAGO01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle del Escorxador, s/n",
+            "Código postal": "43003",
+            "Localidad": "Tarragona",
+            "Municipio": "Tarragona",
+            "Provincia": "Tarragona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.urv.cat/ca",
+            "E-mail": "info@urv.cat",
+            "Teléfono 1": "977558000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1992",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "20/02/1992",
+            "Fecha publicación": "20/02/1992",
+            "Fecha entrada en Vigor": "21/02/1992"
+        }
+    },
+    "Universidad San Jorge": {
+        "Datos de identificación": {
+            "Código de la universidad": "073",
+            "Acrónimo": "USJ",
+            "Tipo": "Privada",
+            "CIF": "G99047672",
+            "Código Erasmus": "E ZARAGOZ 07",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Aragón"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Autovía A-23 Zaragoza-Huesca, km. 510",
+            "Código postal": "50830",
+            "Localidad": "Villanueva de Gállego",
+            "Municipio": "Villanueva de Gállego",
+            "Provincia": "Zaragoza",
+            "Comunidad Autónoma": "Comunidad Autónoma de Aragón"
+        },
+        "Datos complementarios": {
+            "URL": "www.usj.es",
+            "E-mail": "info@usj.es",
+            "Teléfono 1": "976060100",
+            "Fax": "976077581"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "2005",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "24/03/2005",
+            "Fecha publicación": "24/03/2005",
+            "Fecha entrada en Vigor": "25/03/2005"
+        }
+    },
+    "Universidad San Pablo-CEU": {
+        "Datos de identificación": {
+            "Código de la universidad": "046",
+            "Acrónimo": "UCEU",
+            "Tipo": "Privada",
+            "CIF": "G28423275",
+            "Código Erasmus": "E MADRID21",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad de Madrid"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Julián Romea, 23",
+            "Código postal": "28003",
+            "Localidad": "Madrid",
+            "Municipio": "Madrid",
+            "Provincia": "Madrid",
+            "Comunidad Autónoma": "Comunidad de Madrid"
+        },
+        "Datos complementarios": {
+            "URL": "www.uspceu.com",
+            "E-mail": "informa@ceu.es",
+            "Teléfono 1": "914566300",
+            "Fax": "915360660"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1993",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "20/04/1993",
+            "Fecha publicación": "20/04/1993",
+            "Fecha entrada en Vigor": "21/04/1993"
+        }
+    },
+    "Universidad Tecnológica Atlántico-Mediterráneo": {
+        "Datos de identificación": {
+            "Código de la universidad": "103",
+            "Acrónimo": "UTAMED",
+            "Tipo": "Privada",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida Doctor Marañón",
+            "Código postal": "29009",
+            "Localidad": "Málaga",
+            "Municipio": "Málaga",
+            "Provincia": "Málaga",
+            "Comunidad Autónoma": "Comunidad Autónoma de Andalucía"
+        },
+        "Datos complementarios": {
+            "URL": "utamed.es/"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de la Junta de Andalucía",
+            "Año publicación": "2023",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "03/10/2023",
+            "Fecha publicación": "09/10/2023",
+            "Fecha entrada en Vigor": "10/10/2023"
+        }
+    },
+    "Universidad Tecnológica de las Islas Canarias": {
+        "Datos de identificación": {
+            "Código de la universidad": "104",
+            "Tipo": "Privada",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Canarias"
+        },
+        "Datos de ubicación": {
+            "Localidad": "San Cristóbal de la Laguna",
+            "Municipio": "San Cristóbal de La Laguna",
+            "Provincia": "Santa Cruz de Tenerife",
+            "Comunidad Autónoma": "Comunidad Autónoma de Canarias"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial de Canarias",
+            "Año publicación": "2024",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "16/04/2024",
+            "Fecha publicación": "29/04/2024",
+            "Fecha entrada en Vigor": "30/04/2024"
+        }
+    },
+    "Universitat Abat Oliba CEU": {
+        "Datos de identificación": {
+            "Código de la universidad": "070",
+            "Acrónimo": "UAO",
+            "Tipo": "Privada",
+            "CIF": "G63095848",
+            "Código Erasmus": "E BARCELO 31",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Bellesguard, 30",
+            "Código postal": "08022",
+            "Localidad": "Barcelona",
+            "Municipio": "Barcelona",
+            "Provincia": "Barcelona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.uao.es",
+            "E-mail": "info@uao.es",
+            "Teléfono 1": "932540900",
+            "Fax": "934189380"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat de Catalunya",
+            "Año publicación": "2003",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "14/07/2003",
+            "Fecha publicación": "14/07/2003",
+            "Fecha entrada en Vigor": "15/07/2003"
+        }
+    },
+    "Universitat de les Illes Balears": {
+        "Datos de identificación": {
+            "Código de la universidad": "003",
+            "Acrónimo": "UIB",
+            "Tipo": "Pública",
+            "CIF": "Q0718001A",
+            "Código Erasmus": "E PALMA01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de las Illes Balears"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Carretera de Valldemossa, km 7.5",
+            "Código postal": "07122",
+            "Localidad": "Palma",
+            "Municipio": "Palma",
+            "Provincia": "Illes Balears",
+            "Comunidad Autónoma": "Comunidad Autónoma de las Illes Balears",
+            "Mapa": "This page can't load Google Maps correctly.\nDo you own this website? OK"
+        },
+        "Datos complementarios": {
+            "URL": "www.uib.es/",
+            "E-mail": "informacio@uib.es",
+            "Teléfono 1": "971173000",
+            "Teléfono 2": "971172939",
+            "Fax": "971172064"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1978",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "18/03/1978",
+            "Fecha publicación": "18/03/1978",
+            "Fecha entrada en Vigor": "19/03/1978"
+        }
+    },
+    "Universitat de València (Estudi General)": {
+        "Datos de identificación": {
+            "Código de la universidad": "018",
+            "Acrónimo": "UV",
+            "Tipo": "Pública",
+            "CIF": "Q4618001D",
+            "Código Erasmus": "E VALENCI01",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Valenciana"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida Blasco Ibáñez, 13",
+            "Código postal": "46010",
+            "Localidad": "Valencia",
+            "Municipio": "València",
+            "Provincia": "Valencia/València",
+            "Comunidad Autónoma": "Comunidad Valenciana"
+        },
+        "Datos complementarios": {
+            "URL": "www.uv.es",
+            "E-mail": "servei.estudiants@uv.es",
+            "Teléfono 1": "963864100",
+            "Fax": "963864117"
+        },
+        "Documento": {
+            "Tipo Boletín": "No publicado o Publicación desconocida",
+            "Año publicación": "1502",
+            "Tipo disposición": "No consta",
+            "Fecha disposición": "01/01/1502",
+            "Fecha publicación": "01/01/1502",
+            "Fecha entrada en Vigor": "02/01/1502"
+        }
+    },
+    "Universitat Internacional de Catalunya": {
+        "Datos de identificación": {
+            "Código de la universidad": "062",
+            "Acrónimo": "UIC",
+            "Tipo": "Privada",
+            "CIF": "G61737409",
+            "Código Erasmus": "E BARCELO 24",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Inmaculada, 22",
+            "Código postal": "08017",
+            "Localidad": "Barcelona",
+            "Municipio": "Barcelona",
+            "Provincia": "Barcelona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.uic.es",
+            "Teléfono 1": "932541800",
+            "Teléfono 2": "935042000"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat de Catalunya",
+            "Año publicación": "1997",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "02/10/1997",
+            "Fecha publicación": "02/10/1997",
+            "Fecha entrada en Vigor": "03/10/1997"
+        }
+    },
+    "Universitat Internacional Valenciana": {
+        "Datos de identificación": {
+            "Código de la universidad": "076",
+            "Acrónimo": "VIU",
+            "Tipo": "Privada",
+            "CIF": "B98585797",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Valenciana"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Calle Pintor Sorolla, 21",
+            "Código postal": "46002",
+            "Localidad": "Valencia",
+            "Municipio": "València",
+            "Provincia": "Valencia/València",
+            "Comunidad Autónoma": "Comunidad Valenciana"
+        },
+        "Datos complementarios": {
+            "URL": "www.viu.es",
+            "E-mail": "estudios@campusviu.es",
+            "Teléfono 1": "961924950",
+            "Fax": "961 924 951"
+        },
+        "Documento": {
+            "Tipo Boletín": "Diari Oficial de la Generalitat Valenciana",
+            "Año publicación": "2008",
+            "Tipo disposición": "Ley Autonómica",
+            "Fecha disposición": "13/06/2008",
+            "Fecha publicación": "19/06/2008",
+            "Fecha entrada en Vigor": "20/06/2008"
+        }
+    },
+    "Universitat Oberta de Catalunya": {
+        "Datos de identificación": {
+            "Código de la universidad": "054",
+            "Acrónimo": "UOC",
+            "Tipo": "Privada",
+            "CIF": "G60667813",
+            "Código Erasmus": "E BARCELO21",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Avenida Tibidabo, 39-43",
+            "Código postal": "08035",
+            "Localidad": "Barcelona",
+            "Municipio": "Barcelona",
+            "Provincia": "Barcelona",
+            "Comunidad Autónoma": "Comunidad Autónoma de Cataluña"
+        },
+        "Datos complementarios": {
+            "URL": "www.uoc.es",
+            "Teléfono 1": "902372373"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1995",
+            "Tipo disposición": "Ley Estatal",
+            "Fecha disposición": "22/06/1995",
+            "Fecha publicación": "22/06/1995",
+            "Fecha entrada en Vigor": "23/06/1995"
+        }
+    },
+    "Universitat Politècnica de València": {
+        "Datos de identificación": {
+            "Código de la universidad": "027",
+            "Acrónimo": "UPV",
+            "Tipo": "Pública",
+            "CIF": "Q4618002B",
+            "Código Erasmus": "E VALENCI02",
+            "Con ánimo de lucro": "No",
+            "Administración Educativa Responsable": "Comunidad Valenciana"
+        },
+        "Datos de ubicación": {
+            "Domicilio": "Camino de Vera, s/n. Edificio 3A",
+            "Código postal": "46022",
+            "Localidad": "Valencia",
+            "Municipio": "València",
+            "Provincia": "Valencia/València",
+            "Comunidad Autónoma": "Comunidad Valenciana"
+        },
+        "Datos complementarios": {
+            "URL": "www.upv.es",
+            "E-mail": "informacion@upv.es",
+            "Teléfono 1": "963877000",
+            "Teléfono 2": "963877007",
+            "Fax": "963879009"
+        },
+        "Documento": {
+            "Tipo Boletín": "Boletín Oficial del Estado",
+            "Año publicación": "1971",
+            "Tipo disposición": "Decreto",
+            "Fecha disposición": "26/03/1971",
+            "Fecha publicación": "26/03/1971",
+            "Fecha entrada en Vigor": "27/03/1971"
+        }
+    }
+}

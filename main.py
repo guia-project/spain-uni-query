@@ -20,23 +20,22 @@ def nested_dict():
 
 def get_university_data(url):
     university_dict = nested_dict()
-    index_entity = 2
-    entities = ["Identification", "Address", "Document"]
+    entity_name = ""
     driver.get(url)
     name_university = driver.find_element(By.TAG_NAME, "h2")
     university_table = driver.find_element(By.TAG_NAME, "fieldset")
     university_children = university_table.find_elements(By.XPATH, "./*")
     for child in university_children:
         if child.aria_role == "heading":
-            index_entity = (index_entity + 1) % 3
+            entity_name = child.text
         if child.aria_role == "LabelText":
             key_value = child.text.split(":\n")
             try:
-                university_dict[name_university.text][entities[index_entity]][key_value[0]] = key_value[1]
+                university_dict[name_university.text][entity_name][key_value[0].rstrip()] = key_value[1]
             except IndexError:
-                university_dict[name_university.text][entities[index_entity]][key_value[0]] = ""
-    print(json.dumps(university_dict, indent=4))  # Imprime university_dict en formato JSON
+                university_dict[name_university.text][entity_name][key_value[0].rstrip()] = ""
     driver.back()
+    print("Completed")
     return university_dict
 
 
@@ -52,7 +51,7 @@ while not end_page:
     table_links = table_university.find_elements(By.TAG_NAME, "a")
     for link in table_links:
         link_address = link.get_attribute("href")
-        if link_address.__contains__("ruct/universidad.action"):
+        if "ruct/universidad.action" in link_address:
             universities_list.append(link_address)
     try:
         page_link = driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente")
@@ -60,7 +59,10 @@ while not end_page:
     except NoSuchElementException:
         end_page = True
 
+universities_dict = {}
 for university in universities_list:
-    get_university_data(university)
+    universities_dict.update(get_university_data(university))
+with open("universities_data.json", "w", encoding="utf-8") as f:
+    json.dump(universities_dict, f, ensure_ascii=False, indent=4)
 
 driver.quit()
