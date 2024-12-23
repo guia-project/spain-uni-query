@@ -14,6 +14,12 @@ chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(chrome_options)
 
 
+def navigate_to(url):
+    driver.get(url)
+    submit = driver.find_element(By.CLASS_NAME, "botones-submit")
+    submit.click()
+
+
 def nested_dict():
     return defaultdict(nested_dict)
 
@@ -40,11 +46,9 @@ def get_university_data(url):
 
 
 driver.implicitly_wait(0.5)
-driver.get(UNIVERSITY_URL)
-submit = driver.find_element(By.CLASS_NAME, "botones-submit")
-submit.click()
-
+navigate_to(UNIVERSITY_URL)
 end_page = False
+"""
 universities_list = []
 while not end_page:
     table_university = driver.find_element(By.TAG_NAME, "table")
@@ -64,5 +68,25 @@ for university in universities_list:
     universities_dict.update(get_university_data(university))
 with open("universities_data.json", "w", encoding="utf-8") as f:
     json.dump(universities_dict, f, ensure_ascii=False, indent=4)
+"""
+navigate_to(CENTER_URL)
+centers_list = []
+print(driver.page_source)
+while not end_page:
+    table_center = driver.find_element(By.ID, "centro")
+    rows_table = table_center.find_elements(By.TAG_NAME, "tr")
+    for row in rows_table:
+        cells = row.find_elements(By.TAG_NAME, "td")
+        if cells:
+            # print("Codigo universidad:", cells[0].text)
+            centers_list.append(cells[3].find_element(By.TAG_NAME, "a").get_attribute("href"))
+    try:
+        page_link = driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente")
+        page_link.click()
+    except NoSuchElementException:
+        end_page = True
+
+for center in centers_list:
+    print(center)
 
 driver.quit()
