@@ -24,31 +24,33 @@ def nested_dict():
     return defaultdict(nested_dict)
 
 
-def get_university_data(url):
-    university_dict = nested_dict()
+def get_education_data(url):
+    education_dict = nested_dict()
     entity_name = ""
     driver.get(url)
-    name_university = driver.find_element(By.TAG_NAME, "h2")
-    university_table = driver.find_element(By.TAG_NAME, "fieldset")
-    university_children = university_table.find_elements(By.XPATH, "./*")
-    for child in university_children:
+    try:
+        entity_main_name = driver.find_element(By.XPATH, "//form[@id='centro']/h3").text
+    except NoSuchElementException:
+        entity_main_name = driver.find_element(By.XPATH, "//form[@id='universidad']/h2").text
+    education_table = driver.find_element(By.TAG_NAME, "fieldset")
+    education_children = education_table.find_elements(By.XPATH, "./*")
+    for child in education_children:
         if child.aria_role == "heading":
             entity_name = child.text
         if child.aria_role == "LabelText":
             key_value = child.text.split(":\n")
             try:
-                university_dict[name_university.text][entity_name][key_value[0].rstrip()] = key_value[1]
+                education_dict[entity_main_name][entity_name][key_value[0].rstrip()] = key_value[1]
             except IndexError:
-                university_dict[name_university.text][entity_name][key_value[0].rstrip()] = ""
+                education_dict[entity_main_name][entity_name][key_value[0].rstrip()] = ""
     driver.back()
     print("Completed")
-    return university_dict
-
+    return education_dict
 
 driver.implicitly_wait(0.5)
 navigate_to(UNIVERSITY_URL)
 end_page = False
-"""
+
 universities_list = []
 while not end_page:
     table_university = driver.find_element(By.TAG_NAME, "table")
@@ -57,36 +59,46 @@ while not end_page:
         link_address = link.get_attribute("href")
         if "ruct/universidad.action" in link_address:
             universities_list.append(link_address)
+    """
     try:
         page_link = driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente")
         page_link.click()
     except NoSuchElementException:
         end_page = True
+    """
+    end_page = True
 
+end_page = False
 universities_dict = {}
 for university in universities_list:
-    universities_dict.update(get_university_data(university))
+    universities_dict.update(get_education_data(university))
 with open("universities_data.json", "w", encoding="utf-8") as f:
     json.dump(universities_dict, f, ensure_ascii=False, indent=4)
-"""
+
 navigate_to(CENTER_URL)
 centers_list = []
-print(driver.page_source)
+## print(driver.page_source)
 while not end_page:
     table_center = driver.find_element(By.ID, "centro")
     rows_table = table_center.find_elements(By.TAG_NAME, "tr")
     for row in rows_table:
         cells = row.find_elements(By.TAG_NAME, "td")
         if cells:
-            # print("Codigo universidad:", cells[0].text)
             centers_list.append(cells[3].find_element(By.TAG_NAME, "a").get_attribute("href"))
+    """
     try:
         page_link = driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente")
         page_link.click()
     except NoSuchElementException:
         end_page = True
+    """
+    end_page = True
+
+centers_dict = {}
 
 for center in centers_list:
-    print(center)
+    centers_dict.update(get_education_data(center))
+with open("centers_data.json", "w", encoding="utf-8") as f:
+    json.dump(centers_dict, f, ensure_ascii=False, indent=4)
 
 driver.quit()
