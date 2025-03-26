@@ -27,10 +27,12 @@ def get_education_data(url):
     education_dict = nested_dict()
     entity_name = ""
     driver.get(url)
+    university_name = driver.find_element(By.XPATH, "//form/h2").text
     try:
         entity_main_name = driver.find_element(By.XPATH, "//form[@id='centro']/h3").text
+        education_dict[entity_main_name]["Datos de identificación"]["Nombre universidad"] = university_name
     except NoSuchElementException:
-        entity_main_name = driver.find_element(By.XPATH, "//form[@id='universidad']/h2").text
+        entity_main_name = university_name
     education_table = driver.find_element(By.TAG_NAME, "fieldset")
     education_children = education_table.find_elements(By.XPATH, "./*")
     for child in education_children:
@@ -58,8 +60,9 @@ def write_to_json_file(entity_list, file_name):
     entity_dict = {}
     for entity in entity_list:
         entity_dict.update(get_education_data(entity))
+    json_string = json.dumps(entity_dict, ensure_ascii=False, indent=4)
     with open(file_name, "w", encoding="utf-8") as file:
-        json.dump(entity_dict, file, ensure_ascii=False, indent=4)
+        file.write(json_string)
 
 driver.implicitly_wait(0.5)
 
@@ -73,7 +76,7 @@ while not end_page:
         link_address = link.get_attribute("href")
         if "ruct/universidad.action" in link_address:
             universities_list.append(link_address)
-    end_page = go_to_next_page()
+    end_page = True
 
 write_to_json_file(universities_list, "universities_data.json")
 
