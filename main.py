@@ -13,7 +13,6 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(chrome_options)
 
-
 def navigate_to(url):
     driver.get(url)
     submit = driver.find_element(By.CLASS_NAME, "botones-submit")
@@ -47,11 +46,26 @@ def get_education_data(url):
     print("Completed")
     return education_dict
 
-driver.implicitly_wait(0.5)
-navigate_to(UNIVERSITY_URL)
-end_page = False
+def go_to_next_page():
+    try:
+        page_link = driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente")
+        page_link.click()
+        return False
+    except NoSuchElementException:
+        return True
 
+def write_to_json_file(entity_list, file_name):
+    entity_dict = {}
+    for entity in entity_list:
+        entity_dict.update(get_education_data(entity))
+    with open(file_name, "w", encoding="utf-8") as file:
+        json.dump(entity_dict, file, ensure_ascii=False, indent=4)
+
+driver.implicitly_wait(0.5)
+
+navigate_to(UNIVERSITY_URL)
 universities_list = []
+end_page = False
 while not end_page:
     table_university = driver.find_element(By.TAG_NAME, "table")
     table_links = table_university.find_elements(By.TAG_NAME, "a")
@@ -59,25 +73,13 @@ while not end_page:
         link_address = link.get_attribute("href")
         if "ruct/universidad.action" in link_address:
             universities_list.append(link_address)
-    """
-    try:
-        page_link = driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente")
-        page_link.click()
-    except NoSuchElementException:
-        end_page = True
-    """
-    end_page = True
+    end_page = go_to_next_page()
 
-end_page = False
-universities_dict = {}
-for university in universities_list:
-    universities_dict.update(get_education_data(university))
-with open("universities_data.json", "w", encoding="utf-8") as f:
-    json.dump(universities_dict, f, ensure_ascii=False, indent=4)
+write_to_json_file(universities_list, "universities_data.json")
 
 navigate_to(CENTER_URL)
 centers_list = []
-## print(driver.page_source)
+end_page = False
 while not end_page:
     table_center = driver.find_element(By.ID, "centro")
     rows_table = table_center.find_elements(By.TAG_NAME, "tr")
@@ -85,20 +87,8 @@ while not end_page:
         cells = row.find_elements(By.TAG_NAME, "td")
         if cells:
             centers_list.append(cells[3].find_element(By.TAG_NAME, "a").get_attribute("href"))
-    """
-    try:
-        page_link = driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente")
-        page_link.click()
-    except NoSuchElementException:
-        end_page = True
-    """
     end_page = True
 
-centers_dict = {}
-
-for center in centers_list:
-    centers_dict.update(get_education_data(center))
-with open("centers_data.json", "w", encoding="utf-8") as f:
-    json.dump(centers_dict, f, ensure_ascii=False, indent=4)
+write_to_json_file(centers_list,"centers_data.json")
 
 driver.quit()
