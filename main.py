@@ -48,6 +48,21 @@ def get_education_data(url):
     print("Completed")
     return education_dict
 
+
+def extract_all_entity_links(entity_link):
+    end_page = False
+    entities_list = []
+    while not end_page:
+        table_education = driver.find_element(By.TAG_NAME, "table")
+        table_links = table_education.find_elements(By.TAG_NAME, "a")
+        for link in table_links:
+            link_address = link.get_attribute("href")
+            if entity_link in link_address:
+                entities_list.append(link_address)
+        end_page = True
+    return entities_list
+
+
 def go_to_next_page():
     try:
         page_link = driver.find_element(By.CLASS_NAME, "pagelinks").find_element(By.LINK_TEXT, "Siguiente")
@@ -55,6 +70,7 @@ def go_to_next_page():
         return False
     except NoSuchElementException:
         return True
+
 
 def write_to_json_file(entity_list, file_name):
     entity_dict = {}
@@ -67,31 +83,11 @@ def write_to_json_file(entity_list, file_name):
 driver.implicitly_wait(0.5)
 
 navigate_to(UNIVERSITY_URL)
-universities_list = []
-end_page = False
-while not end_page:
-    table_university = driver.find_element(By.TAG_NAME, "table")
-    table_links = table_university.find_elements(By.TAG_NAME, "a")
-    for link in table_links:
-        link_address = link.get_attribute("href")
-        if "ruct/universidad.action" in link_address:
-            universities_list.append(link_address)
-    end_page = True
-
+universities_list = extract_all_entity_links("ruct/universidad.action")
 write_to_json_file(universities_list, "universities_data.json")
 
 navigate_to(CENTER_URL)
-centers_list = []
-end_page = False
-while not end_page:
-    table_center = driver.find_element(By.ID, "centro")
-    rows_table = table_center.find_elements(By.TAG_NAME, "tr")
-    for row in rows_table:
-        cells = row.find_elements(By.TAG_NAME, "td")
-        if cells:
-            centers_list.append(cells[3].find_element(By.TAG_NAME, "a").get_attribute("href"))
-    end_page = True
-
+centers_list = extract_all_entity_links("ruct/centro.action")
 write_to_json_file(centers_list,"centers_data.json")
 
 driver.quit()
