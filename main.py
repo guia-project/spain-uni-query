@@ -70,6 +70,8 @@ def get_table_data(table, entity_dict, id):
     degree_code = driver.current_url.split("codigoEstudio=")[1].split("&")[0]
     container = driver.find_element(By.ID, id)
     field_name = container.find_element(By.TAG_NAME, "h3").text
+    if id == "ttwo":
+        field_name = table.find_element(By.XPATH, "..").find_element(By.TAG_NAME, "legend").text
     table_title = table.find_elements(By.TAG_NAME, "th")
     table_row = table.find_elements(By.TAG_NAME, "tr")
     row_number = "1"
@@ -133,15 +135,17 @@ universities_degree_list = extract_all_entity_links("ruct/universidadcentros.act
 degree_list = extract_all_entity_links("ruct/estudiouniversidad.action")
 """
 driver.get("https://www.educacion.gob.es/ruct/estudiocentro.action?codigoCiclo=SC&codigoEstudio=2503028&actual=estudios")
-degree_information_table = driver.find_element(By.ID, "tab_estudio")
-driver.find_element(By.ID, "tab4").click()
-degree_information = degree_information_table.find_elements(By.TAG_NAME, "table")
-#degree_information = degree_information_table.find_elements(By.XPATH, "//fieldset")
+driver.find_element(By.ID, "tab2").click()
+degree_information = driver.find_element(By.ID, "ttwo")
+degree_information_table = degree_information.find_elements(By.TAG_NAME, "table")
+degree_information_groupbox = degree_information.find_elements(By.TAG_NAME, "fieldset")
 degree_dict = nested_dict()
 
-for degree in degree_information:
-    get_table_data(degree, degree_dict,"tfour")
-    #get_groupbox_data(degree, degree_dict)
+for degree in degree_information_table:
+    get_table_data(degree, degree_dict,"ttwo")
+
+for degree in degree_information_groupbox:
+    get_groupbox_data(degree, degree_dict)
 
 for key, value in degree_dict.items():
     print("key: ", key, " values: ", value)
