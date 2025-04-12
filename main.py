@@ -11,6 +11,7 @@ CENTER_URL = ROOT_URL + "consultacentros?actual=centros"
 TITLE_URL = ROOT_URL + "consultaestudios?actual=estudios"
 chrome_options = Options()
 chrome_options.add_argument("--headless")
+chrome_options.add_argument("--incognito")
 driver = webdriver.Chrome(chrome_options)
 
 
@@ -50,7 +51,8 @@ def get_education_data(url):
     return education_dict
 
 
-def get_groupbox_data(groupbox, entity_dict, entity_main_name):
+def get_groupbox_data(groupbox, entity_dict):
+    entity_code = driver.current_url.split("codigoEstudio=")[1].split("&")[0]
     groupbox_children = groupbox.find_elements(By.XPATH, "./*")
     entity_name = ""
     for child in groupbox_children:
@@ -59,25 +61,29 @@ def get_groupbox_data(groupbox, entity_dict, entity_main_name):
         elif child.aria_role == "LabelText":
             key_value = child.text.split(":\n")
             try:
-                entity_dict[entity_main_name][entity_name][key_value[0].rstrip()] = key_value[1]
+                entity_dict[entity_code][entity_name][key_value[0].rstrip()] = key_value[1]
             except IndexError:
-                entity_dict[entity_main_name][entity_name][key_value[0].rstrip()] = ""
+                entity_dict[entity_code][entity_name][key_value[0].rstrip()] = ""
 
 
-def get_table_data(table, entity_dict):
+def get_table_data(table, entity_dict, id):
     degree_code = driver.current_url.split("codigoEstudio=")[1].split("&")[0]
-    field_name = driver.find_element(By.XPATH, "//div/h3").text
+    container = driver.find_element(By.ID, id)
+    field_name = container.find_element(By.TAG_NAME, "h3").text
     table_title = table.find_elements(By.TAG_NAME, "th")
     table_row = table.find_elements(By.TAG_NAME, "tr")
     row_number = "1"
     for row in table_row:
         cells = row.find_elements(By.TAG_NAME, "td")
         for key, value in zip(table_title, cells):
-            if key.text == "Orden":
-                entity_dict[degree_code][field_name][value.text.strip()] = {}
-                row_number = value.text.strip()
+            if id != "tfour":
+                entity_dict[degree_code][field_name][key.text] = value.text.strip()
             else:
-                entity_dict[degree_code][field_name][row_number][key.text] = value.text.strip()
+                if key.text == "Orden":
+                    entity_dict[degree_code][field_name][value.text.strip()] = {}
+                    row_number = value.text.strip()
+                else:
+                    entity_dict[degree_code][field_name][row_number][key.text] = value.text.strip()
 
 
 def extract_all_entity_links(entity_link):
@@ -126,16 +132,16 @@ write_to_json_file(centers_list,"centers_data.json")
 universities_degree_list = extract_all_entity_links("ruct/universidadcentros.action")
 degree_list = extract_all_entity_links("ruct/estudiouniversidad.action")
 """
-driver.get("https://www.educacion.gob.es/ruct/estudiouniversidad.action?codigoCiclo=SC&codigoEstudio=2503028&actual=universidad")
+driver.get("https://www.educacion.gob.es/ruct/estudiocentro.action?codigoCiclo=SC&codigoEstudio=2503028&actual=estudios")
 degree_information_table = driver.find_element(By.ID, "tab_estudio")
 driver.find_element(By.ID, "tab4").click()
 degree_information = degree_information_table.find_elements(By.TAG_NAME, "table")
-
+#degree_information = degree_information_table.find_elements(By.XPATH, "//fieldset")
 degree_dict = nested_dict()
-test = "hola"
+
 for degree in degree_information:
-    get_table_data(degree, degree_dict)
-    get_groupbox_data(degree, degree_dict, test)
+    get_table_data(degree, degree_dict,"tfour")
+    #get_groupbox_data(degree, degree_dict)
 
 for key, value in degree_dict.items():
     print("key: ", key, " values: ", value)
