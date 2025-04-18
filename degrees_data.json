@@ -1,0 +1,54 @@
+{
+    "2503028": {
+        "Descripción": {
+            "Código del título": "2503028",
+            "Nivel académico": "Grado - RD 1393/2007 (1)",
+            "Nivel MECES": "2",
+            "Rama": "Ingeniería y Arquitectura"
+        },
+        "Créditos": {
+            "Nº Créditos de Formación Básica": "60",
+            "Nº Créditos Obligatorios": "141",
+            "Nº Créditos Optativos": "27",
+            "Nº Créditos en Prácticas Externas": "0",
+            "Nº Créditos Trabajo Fin de Grado/Master": "12",
+            "Créditos Totales": "240"
+        },
+        "Comunidades Autónomas que autorizan": {
+            "Universidad": "Universidad Politécnica de Madrid",
+            "Código CCAA": "13",
+            "Nombre CCAA": "Comunidad de Madrid",
+            "Fecha de Autorización CCAA": "21/11/2014",
+            "Enlace Autorización CCAA": "21/11/2014"
+        },
+        "Resultados renovación acreditaciones": {
+            "Resultado": "Resolución Favorable",
+            "F. Efecto": "26/04/2021"
+        },
+        "Fechas y Enlaces a BOE": {
+            "Fecha de verificación": "07/10/2014",
+            "Fecha de autorización del Consejo de Ministros": "20/02/2015",
+            "Fecha de publicación del Acuerdo de Consejo de Ministros en el BOE": "BOE 18/03/2015 ",
+            "Publicación Plan Estudios en el BOE": "BOE 10/11/2022 "
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Universidad Politécnica de Madrid",
+            "Código Centro": "28031750",
+            "Nombre Centro": "Escuela Técnica Superior de Ingeniería de Sistemas Informáticos"
+        },
+        "Histórico de Incidencias del Plan de Estudios": {
+            "1": {
+                "Denominación": "Graduado o Graduada en Ingeniería del Software por la Universidad Politécnica de Madrid",
+                "Incidencia": "Alta Inicial",
+                "Fecha de Efectos": "20/02/2015",
+                "Información del título": "Ver"
+            },
+            "2": {
+                "Denominación": "Graduado o Graduada en Ingeniería del Software por la Universidad Politécnica de Madrid",
+                "Incidencia": "Acreditacion",
+                "Fecha de Efectos": "26/04/2021",
+                "Información del título": "Ver"
+            }
+        }
+    }
+}

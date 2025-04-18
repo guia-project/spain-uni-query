@@ -118,10 +118,14 @@ def go_to_next_page():
         return True
 
 
-def write_to_json_file(entity_list, file_name):
+def retrieve_data_to_dict(entity_list):
     entity_dict = {}
     for entity in entity_list:
         entity_dict.update(get_education_data(entity))
+    return entity_dict
+
+
+def write_to_json_file(entity_dict, file_name):
     json_string = json.dumps(entity_dict, ensure_ascii=False, indent=4)
     with open(file_name, "w", encoding="utf-8") as file:
         file.write(json_string)
@@ -131,33 +135,38 @@ driver.implicitly_wait(0.5)
 """
 navigate_to(UNIVERSITY_URL)
 universities_list = extract_all_entity_links("ruct/universidad.action")
-write_to_json_file(universities_list, "universities_data.json")
+universities_dict = retrieve_data_to_dict(universities_list)
+write_to_json_file(universities_dict, "universities_data.json")
 
 centers_list = extract_all_entity_links("ruct/centro.action")
-write_to_json_file(centers_list,"centers_data.json")
-"""
+centers_dict = retrieve_data_to_dict(centers_list)
+write_to_json_file(centers_dict,"centers_data.json")
 navigate_to(CENTER_URL)
 degrees_list = []
 centers_degree_list = extract_all_entity_links("ruct/listaestudioscentro.action")
 for center in centers_degree_list:
     degrees_list.extend(extract_all_degree_links(center))
-
-
 """
+
+
 driver.get("https://www.educacion.gob.es/ruct/estudiocentro.action?codigoCiclo=SC&codigoEstudio=2503028&actual=estudios")
-driver.find_element(By.ID, "tab2").click()
-degree_information = driver.find_element(By.ID, "ttwo")
-degree_information_table = degree_information.find_elements(By.TAG_NAME, "table")
-degree_information_groupbox = degree_information.find_elements(By.TAG_NAME, "fieldset")
-degree_dict = nested_dict()
+div_id_list = ["tone", "ttwo", "tthree", "tfour"]
+degrees_dict = nested_dict()
 
-for degree in degree_information_table:
-    get_table_data(degree, degree_dict,"ttwo")
+for index, div_id in enumerate(div_id_list):
+    ui_id = f"tab{index+1}"
+    try:
+        driver.find_element(By.ID, ui_id).click()
+        degree_information = driver.find_element(By.ID, div_id)
+        degree_information_table = degree_information.find_elements(By.TAG_NAME, "table")
+        degree_information_groupbox = degree_information.find_elements(By.TAG_NAME, "fieldset")
+        for degree in degree_information_table:
+            get_table_data(degree, degrees_dict, div_id)
+        for degree in degree_information_groupbox:
+            get_groupbox_data(degree, degrees_dict)
+    except NoSuchElementException:
+        pass
 
-for degree in degree_information_groupbox:
-    get_groupbox_data(degree, degree_dict)
+write_to_json_file(degrees_dict, "degrees_data.json")
 
-for key, value in degree_dict.items():
-    print("key: ", key, " values: ", value)
-"""
 driver.quit()
