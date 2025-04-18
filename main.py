@@ -88,6 +88,13 @@ def get_table_data(table, entity_dict, id):
                     entity_dict[degree_code][field_name][row_number][key.text] = value.text.strip()
 
 
+def extract_all_degree_links(center_link):
+    driver.get(center_link)
+    degree_list = extract_all_entity_links("ruct/estudiocentro.action")
+    driver.back()
+    return degree_list
+
+
 def extract_all_entity_links(entity_link):
     end_page = False
     entities_list = []
@@ -126,13 +133,16 @@ navigate_to(UNIVERSITY_URL)
 universities_list = extract_all_entity_links("ruct/universidad.action")
 write_to_json_file(universities_list, "universities_data.json")
 
-navigate_to(CENTER_URL)
 centers_list = extract_all_entity_links("ruct/centro.action")
 write_to_json_file(centers_list,"centers_data.json")
+"""
+navigate_to(CENTER_URL)
+degrees_list = []
+centers_degree_list = extract_all_entity_links("ruct/listaestudioscentro.action")
+for center in centers_degree_list:
+    degrees_list.extend(extract_all_degree_links(center))
 
 
-universities_degree_list = extract_all_entity_links("ruct/universidadcentros.action")
-degree_list = extract_all_entity_links("ruct/estudiouniversidad.action")
 """
 driver.get("https://www.educacion.gob.es/ruct/estudiocentro.action?codigoCiclo=SC&codigoEstudio=2503028&actual=estudios")
 driver.find_element(By.ID, "tab2").click()
@@ -149,5 +159,5 @@ for degree in degree_information_groupbox:
 
 for key, value in degree_dict.items():
     print("key: ", key, " values: ", value)
-
+"""
 driver.quit()
