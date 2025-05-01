@@ -27,32 +27,23 @@ def nested_dict():
 
 def get_education_data(url):
     education_dict = nested_dict()
-    entity_name = ""
     driver.get(url)
     university_name = driver.find_element(By.XPATH, "//form/h2").text
     try:
         entity_main_name = driver.find_element(By.XPATH, "//form[@id='centro']/h3").text
-        education_dict[entity_main_name]["Datos de identificación"]["Nombre universidad"] = university_name
+        entity_code = get_entity_code("codigoCentro=")
+        education_dict[entity_code]["Datos de identificación"]["Nombre centro"] = entity_main_name
     except NoSuchElementException:
-        entity_main_name = university_name
+        entity_code = get_entity_code("codigoUniversidad=")
+    education_dict[entity_code]["Datos de identificación"]["Nombre universidad"] = university_name
     education_table = driver.find_element(By.TAG_NAME, "fieldset")
-    education_children = education_table.find_elements(By.XPATH, "./*")
-    for child in education_children:
-        if child.aria_role == "heading":
-            entity_name = child.text
-        if child.aria_role == "LabelText":
-            key_value = child.text.split(":\n")
-            try:
-                education_dict[entity_main_name][entity_name][key_value[0].rstrip()] = key_value[1]
-            except IndexError:
-                education_dict[entity_main_name][entity_name][key_value[0].rstrip()] = ""
+    get_groupbox_data(education_table, education_dict, entity_code)
     driver.back()
     print("Completed")
     return education_dict
 
 
-def get_groupbox_data(groupbox, entity_dict):
-    entity_code = driver.current_url.split("codigoEstudio=")[1].split("&")[0]
+def get_groupbox_data(groupbox, entity_dict, entity_code):
     groupbox_children = groupbox.find_elements(By.XPATH, "./*")
     entity_name = ""
     for child in groupbox_children:
@@ -66,11 +57,11 @@ def get_groupbox_data(groupbox, entity_dict):
                 entity_dict[entity_code][entity_name][key_value[0].rstrip()] = ""
 
 
-def get_table_data(table, entity_dict, id):
-    degree_code = driver.current_url.split("codigoEstudio=")[1].split("&")[0]
-    container = driver.find_element(By.ID, id)
+def get_table_data(table, entity_dict, div_id):
+    degree_code = get_entity_code("codigoEstudio=")
+    container = driver.find_element(By.ID, div_id)
     field_name = container.find_element(By.TAG_NAME, "h3").text
-    if id == "ttwo":
+    if div_id == "ttwo":
         field_name = table.find_element(By.XPATH, "..").find_element(By.TAG_NAME, "legend").text
     table_title = table.find_elements(By.TAG_NAME, "th")
     table_row = table.find_elements(By.TAG_NAME, "tr")
@@ -78,7 +69,7 @@ def get_table_data(table, entity_dict, id):
     for row in table_row:
         cells = row.find_elements(By.TAG_NAME, "td")
         for key, value in zip(table_title, cells):
-            if id != "tfour":
+            if div_id != "tfour":
                 entity_dict[degree_code][field_name][key.text] = value.text.strip()
             else:
                 if key.text == "Orden":
@@ -86,6 +77,10 @@ def get_table_data(table, entity_dict, id):
                     row_number = value.text.strip()
                 else:
                     entity_dict[degree_code][field_name][row_number][key.text] = value.text.strip()
+
+
+def get_entity_code(separator):
+    return driver.current_url.split(separator)[1].split("&")[0]
 
 
 def extract_all_degree_links(center_link):
@@ -132,12 +127,13 @@ def write_to_json_file(entity_dict, file_name):
 
 
 driver.implicitly_wait(0.5)
-"""
+
 navigate_to(UNIVERSITY_URL)
 universities_list = extract_all_entity_links("ruct/universidad.action")
 universities_dict = retrieve_data_to_dict(universities_list)
 write_to_json_file(universities_dict, "universities_data.json")
 
+navigate_to(CENTER_URL)
 centers_list = extract_all_entity_links("ruct/centro.action")
 centers_dict = retrieve_data_to_dict(centers_list)
 write_to_json_file(centers_dict,"centers_data.json")
@@ -146,7 +142,6 @@ degrees_list = []
 centers_degree_list = extract_all_entity_links("ruct/listaestudioscentro.action")
 for center in centers_degree_list:
     degrees_list.extend(extract_all_degree_links(center))
-"""
 
 
 driver.get("https://www.educacion.gob.es/ruct/estudiocentro.action?codigoCiclo=SC&codigoEstudio=2503028&actual=estudios")
@@ -160,10 +155,11 @@ for index, div_id in enumerate(div_id_list):
         degree_information = driver.find_element(By.ID, div_id)
         degree_information_table = degree_information.find_elements(By.TAG_NAME, "table")
         degree_information_groupbox = degree_information.find_elements(By.TAG_NAME, "fieldset")
+        degree_code = get_entity_code("codigoEstudio=")
         for degree in degree_information_table:
             get_table_data(degree, degrees_dict, div_id)
         for degree in degree_information_groupbox:
-            get_groupbox_data(degree, degrees_dict)
+            get_groupbox_data(degree, degrees_dict, degree_code)
     except NoSuchElementException:
         pass
 

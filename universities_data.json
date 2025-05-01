@@ -1,6 +1,7 @@
 {
-    "Centros autorizados para impartir Enseñanzas Artísticas Superiores": {
+    "099": {
         "Datos de identificación": {
+            "Nombre universidad": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
             "Código de la universidad": "099",
             "Tipo": "Privada",
             "Administración Educativa Responsable": "Estado"
@@ -20,8 +21,9 @@
             "Fecha entrada en Vigor": "09/03/2022"
         }
     },
-    "Centros dependientes del Ministerio de Defensa": {
+    "086": {
         "Datos de identificación": {
+            "Nombre universidad": "Centros dependientes del Ministerio de Defensa",
             "Código de la universidad": "086",
             "Tipo": "Pública",
             "Con ánimo de lucro": "No",
@@ -42,8 +44,9 @@
             "Fecha entrada en Vigor": "06/02/2019"
         }
     },
-    "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón": {
+    "105": {
         "Datos de identificación": {
+            "Nombre universidad": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
             "Código de la universidad": "105",
             "Tipo": "Pública",
             "Administración Educativa Responsable": "Comunidad Autónoma de Aragón"
@@ -63,8 +66,9 @@
             "Fecha entrada en Vigor": "01/02/2000"
         }
     },
-    "Centros extranjeros autorizados por la Comunidad Autónoma de Cantabria": {
+    "092": {
         "Datos de identificación": {
+            "Nombre universidad": "Centros extranjeros autorizados por la Comunidad Autónoma de Cantabria",
             "Código de la universidad": "092",
             "Tipo": "Pública",
             "Administración Educativa Responsable": "Comunidad Autónoma de Cantabria"
@@ -84,8 +88,9 @@
             "Fecha entrada en Vigor": "03/03/2020"
         }
     },
-    "Centros extranjeros autorizados por la Comunidad Autónoma de Cataluña": {
+    "101": {
         "Datos de identificación": {
+            "Nombre universidad": "Centros extranjeros autorizados por la Comunidad Autónoma de Cataluña",
             "Código de la universidad": "101",
             "Tipo": "Pública",
             "Administración Educativa Responsable": "Comunidad Autónoma de Cataluña"
@@ -105,8 +110,9 @@
             "Fecha entrada en Vigor": "14/12/2022"
         }
     },
-    "Centros extranjeros autorizados por la Comunidad Autónoma del País Vasco": {
+    "095": {
         "Datos de identificación": {
+            "Nombre universidad": "Centros extranjeros autorizados por la Comunidad Autónoma del País Vasco",
             "Código de la universidad": "095",
             "Tipo": "Pública",
             "Administración Educativa Responsable :": ""
@@ -126,8 +132,9 @@
             "Fecha entrada en Vigor": "18/02/2021"
         }
     },
-    "Centros extranjeros autorizados por la Comunidad de Andalucía": {
+    "093": {
         "Datos de identificación": {
+            "Nombre universidad": "Centros extranjeros autorizados por la Comunidad de Andalucía",
             "Código de la universidad": "093",
             "Tipo": "Pública",
             "Administración Educativa Responsable :": ""
@@ -147,8 +154,9 @@
             "Fecha entrada en Vigor": "01/06/2020"
         }
     },
-    "Centros extranjeros autorizados por la Comunidad de Madrid": {
+    "091": {
         "Datos de identificación": {
+            "Nombre universidad": "Centros extranjeros autorizados por la Comunidad de Madrid",
             "Código de la universidad": "091",
             "Tipo": "Pública",
             "Administración Educativa Responsable": "Comunidad de Madrid"
@@ -168,8 +176,9 @@
             "Fecha entrada en Vigor": "27/02/2020"
         }
     },
-    "Centros extranjeros autorizados por la Comunidad Valenciana": {
+    "096": {
         "Datos de identificación": {
+            "Nombre universidad": "Centros extranjeros autorizados por la Comunidad Valenciana",
             "Código de la universidad": "096",
             "Tipo": "Pública",
             "Administración Educativa Responsable :": ""
@@ -189,8 +198,9 @@
             "Fecha entrada en Vigor": "17/08/2012"
         }
     },
-    "CUNEF Universidad": {
+    "089": {
         "Datos de identificación": {
+            "Nombre universidad": "CUNEF Universidad",
             "Código de la universidad": "089",
             "Acrónimo": "CUNEF",
             "Tipo": "Privada",
