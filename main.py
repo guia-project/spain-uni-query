@@ -50,11 +50,16 @@ def get_groupbox_data(groupbox, entity_dict, entity_code):
         if child.aria_role == "heading":
             entity_name = child.text
         elif child.aria_role == "LabelText":
+            link = get_link_address(child)
             key_value = child.text.split(":\n")
+            key = key_value[0].rstrip()
             try:
-                entity_dict[entity_code][entity_name][key_value[0].rstrip()] = key_value[1]
+                value = key_value[1]
+                if link != "":
+                    value = link
+                entity_dict[entity_code][entity_name][key] = value
             except IndexError:
-                entity_dict[entity_code][entity_name][key_value[0].rstrip()] = ""
+                entity_dict[entity_code][entity_name][key] = ""
 
 
 def get_table_data(table, entity_dict, div_id):
@@ -69,18 +74,30 @@ def get_table_data(table, entity_dict, div_id):
     for row in table_row:
         cells = row.find_elements(By.TAG_NAME, "td")
         for key, value in zip(table_title, cells):
+            link = get_link_address(value)
+            value_formatted = value.text.strip()
+            if link != "":
+                value_formatted = link
             if div_id != "tfour":
-                entity_dict[degree_code][field_name][key.text] = value.text.strip()
+                entity_dict[degree_code][field_name][key.text] = value_formatted
             else:
                 if key.text == "Orden":
-                    entity_dict[degree_code][field_name][value.text.strip()] = {}
-                    row_number = value.text.strip()
+                    entity_dict[degree_code][field_name][value_formatted] = {}
+                    row_number = value_formatted
                 else:
-                    entity_dict[degree_code][field_name][row_number][key.text] = value.text.strip()
+                    entity_dict[degree_code][field_name][row_number][key.text] = value_formatted
 
 
 def get_entity_code(separator):
     return driver.current_url.split(separator)[1].split("&")[0]
+
+
+def get_link_address(element):
+    try:
+        link = element.find_element(By.TAG_NAME, "a")
+        return link.get_attribute("href")
+    except NoSuchElementException:
+        return ""
 
 
 def extract_all_degree_links(center_link):

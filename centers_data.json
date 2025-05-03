@@ -178,7 +178,7 @@
             "Comunidad Autónoma": "Comunidad de Madrid"
         },
         "Datos complementarios": {
-            "URL": "www.ejercito.mde.es/unidades/Madrid/espol/",
+            "URL": "http://www.ejercito.mde.es/unidades/Madrid/espol/",
             "Teléfono 1": "914005600",
             "Fax": "914005677"
         },
@@ -209,7 +209,7 @@
             "Comunidad Autónoma": "Comunidad de Madrid"
         },
         "Datos complementarios": {
-            "URL": "www.armada.mde.es",
+            "URL": "http://www.armada.mde.es/",
             "Teléfono 1": "913795619"
         },
         "Documento": {
@@ -238,7 +238,7 @@
             "Comunidad Autónoma": "Comunidad Autónoma de Aragón"
         },
         "Datos complementarios": {
-            "URL": "www.ceste.es",
+            "URL": "http://www.ceste.es/",
             "E-mail": "info@ceste.es",
             "Teléfono 1": "976 56 85 86"
         },

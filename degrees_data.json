@@ -19,17 +19,17 @@
             "Código CCAA": "13",
             "Nombre CCAA": "Comunidad de Madrid",
             "Fecha de Autorización CCAA": "21/11/2014",
-            "Enlace Autorización CCAA": "21/11/2014"
+            "Enlace Autorización CCAA": "http://www.bocm.es/boletin/CM_Orden_BOCM/2014/12/12/BOCM-20141212-20.PDF"
         },
         "Resultados renovación acreditaciones": {
-            "Resultado": "Resolución Favorable",
+            "Resultado": "https://sede.educacion.gob.es/cid/consultaCID?cid=425718047032075793770491",
             "F. Efecto": "26/04/2021"
         },
         "Fechas y Enlaces a BOE": {
             "Fecha de verificación": "07/10/2014",
             "Fecha de autorización del Consejo de Ministros": "20/02/2015",
-            "Fecha de publicación del Acuerdo de Consejo de Ministros en el BOE": "BOE 18/03/2015 ",
-            "Publicación Plan Estudios en el BOE": "BOE 10/11/2022 "
+            "Fecha de publicación del Acuerdo de Consejo de Ministros en el BOE": "http://www.boe.es/boe/dias/2015/03/18/pdfs/BOE-A-2015-2893.pdf",
+            "Publicación Plan Estudios en el BOE": "http://www.boe.es/boe/dias/2022/11/10/pdfs/BOE-A-2022-18462.pdf"
         },
         "Centros en los que se imparte": {
             "Nombre Univ.": "Universidad Politécnica de Madrid",
@@ -41,13 +41,13 @@
                 "Denominación": "Graduado o Graduada en Ingeniería del Software por la Universidad Politécnica de Madrid",
                 "Incidencia": "Alta Inicial",
                 "Fecha de Efectos": "20/02/2015",
-                "Información del título": "Ver"
+                "Información del título": "https://www.educacion.gob.es/ruct/solicitud/detalles.action?cod=25030282014070701&sit=A&actual=menu.solicitud.basicos"
             },
             "2": {
                 "Denominación": "Graduado o Graduada en Ingeniería del Software por la Universidad Politécnica de Madrid",
                 "Incidencia": "Acreditacion",
                 "Fecha de Efectos": "26/04/2021",
-                "Información del título": "Ver"
+                "Información del título": "https://sede.educacion.gob.es/cid/consultaCID?cid=425718047032075793770491"
             }
         }
     }
