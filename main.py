@@ -50,42 +50,60 @@ def get_groupbox_data(groupbox, entity_dict, entity_code):
         if child.aria_role == "heading":
             entity_name = child.text
         elif child.aria_role == "LabelText":
-            link = get_link_address(child)
-            key_value = child.text.split(":\n")
-            key = key_value[0].rstrip()
-            try:
-                value = key_value[1]
-                if link != "":
-                    value = link
-                entity_dict[entity_code][entity_name][key] = value
-            except IndexError:
-                entity_dict[entity_code][entity_name][key] = ""
+            key, value = __process_groupbox_key_value(child)
+            entity_dict[entity_code][entity_name][key] = value
+
+
+def __process_groupbox_key_value(child):
+    key_value = child.text.split(":\n")
+    key = key_value[0].rstrip()
+    try:
+        link = get_link_address(child)
+        if link != "":
+            value = link
+        else:
+            value = key_value[1]
+    except IndexError:
+        value = ""
+    return key, value
 
 
 def get_table_data(table, entity_dict, div_id):
     degree_code = get_entity_code("codigoEstudio=")
-    container = driver.find_element(By.ID, div_id)
-    field_name = container.find_element(By.TAG_NAME, "h3").text
-    if div_id == "ttwo":
-        field_name = table.find_element(By.XPATH, "..").find_element(By.TAG_NAME, "legend").text
+    field_name = __get_field_name(table, div_id)
     table_title = table.find_elements(By.TAG_NAME, "th")
     table_row = table.find_elements(By.TAG_NAME, "tr")
     row_number = "1"
     for row in table_row:
         cells = row.find_elements(By.TAG_NAME, "td")
         for key, value in zip(table_title, cells):
-            link = get_link_address(value)
-            value_formatted = value.text.strip()
-            if link != "":
-                value_formatted = link
+            formatted_value = __get_formatted_value(value)
             if div_id != "tfour":
-                entity_dict[degree_code][field_name][key.text] = value_formatted
+                entity_dict[degree_code][field_name][key.text] = formatted_value
             else:
                 if key.text == "Orden":
-                    entity_dict[degree_code][field_name][value_formatted] = {}
-                    row_number = value_formatted
+                    entity_dict[degree_code][field_name][formatted_value] = {}
+                    row_number = formatted_value
                 else:
-                    entity_dict[degree_code][field_name][row_number][key.text] = value_formatted
+                    entity_dict[degree_code][field_name][row_number][key.text] = formatted_value
+
+
+def __get_field_name(table, div_id):
+    if div_id == "ttwo":
+        field_name = table.find_element(By.XPATH, "..").find_element(By.TAG_NAME, "legend").text
+    else:
+        container = driver.find_element(By.ID, div_id)
+        field_name = container.find_element(By.TAG_NAME, "h3").text
+    return field_name
+
+
+def __get_formatted_value(value):
+    link = get_link_address(value)
+    if link != "":
+        formatted_value = link
+    else:
+        formatted_value = value.text.strip()
+    return formatted_value
 
 
 def get_entity_code(separator):
@@ -98,6 +116,14 @@ def get_link_address(element):
         return link.get_attribute("href")
     except NoSuchElementException:
         return ""
+
+
+def extract_all_centers_degree_links():
+    all_degrees_list = []
+    centers_degree_list = extract_all_entity_links("ruct/listaestudioscentro.action")
+    for center in centers_degree_list:
+        all_degrees_list.extend(extract_all_degree_links(center))
+    return all_degrees_list
 
 
 def extract_all_degree_links(center_link):
@@ -137,6 +163,32 @@ def retrieve_data_to_dict(entity_list):
     return entity_dict
 
 
+def retrieve_degree_basic_data(degrees_links_list):
+    degrees_basic_data_dict = nested_dict()
+    for degree_link in degrees_links_list:
+        driver.get(degree_link)
+        __process_div_sections(degrees_basic_data_dict)
+    return degrees_basic_data_dict
+
+
+def __process_div_sections(degrees_basic_data_dict):
+    div_id_list = ["tone", "ttwo", "tthree", "tfour"]
+    for index, div_id in enumerate(div_id_list):
+        ui_id = f"tab{index + 1}"
+        try:
+            driver.find_element(By.ID, ui_id).click()
+            degree_information = driver.find_element(By.ID, div_id)
+            degree_information_table = degree_information.find_elements(By.TAG_NAME, "table")
+            degree_information_groupbox = degree_information.find_elements(By.TAG_NAME, "fieldset")
+            degree_code = get_entity_code("codigoEstudio=")
+            for degree in degree_information_table:
+                get_table_data(degree, degrees_basic_data_dict, div_id)
+            for degree in degree_information_groupbox:
+                get_groupbox_data(degree, degrees_basic_data_dict, degree_code)
+        except NoSuchElementException:
+            pass
+
+
 def write_to_json_file(entity_dict, file_name):
     json_string = json.dumps(entity_dict, ensure_ascii=False, indent=4)
     with open(file_name, "w", encoding="utf-8") as file:
@@ -155,31 +207,8 @@ centers_list = extract_all_entity_links("ruct/centro.action")
 centers_dict = retrieve_data_to_dict(centers_list)
 write_to_json_file(centers_dict,"centers_data.json")
 navigate_to(CENTER_URL)
-degrees_list = []
-centers_degree_list = extract_all_entity_links("ruct/listaestudioscentro.action")
-for center in centers_degree_list:
-    degrees_list.extend(extract_all_degree_links(center))
-
-
-driver.get("https://www.educacion.gob.es/ruct/estudiocentro.action?codigoCiclo=SC&codigoEstudio=2503028&actual=estudios")
-div_id_list = ["tone", "ttwo", "tthree", "tfour"]
-degrees_dict = nested_dict()
-
-for index, div_id in enumerate(div_id_list):
-    ui_id = f"tab{index+1}"
-    try:
-        driver.find_element(By.ID, ui_id).click()
-        degree_information = driver.find_element(By.ID, div_id)
-        degree_information_table = degree_information.find_elements(By.TAG_NAME, "table")
-        degree_information_groupbox = degree_information.find_elements(By.TAG_NAME, "fieldset")
-        degree_code = get_entity_code("codigoEstudio=")
-        for degree in degree_information_table:
-            get_table_data(degree, degrees_dict, div_id)
-        for degree in degree_information_groupbox:
-            get_groupbox_data(degree, degrees_dict, degree_code)
-    except NoSuchElementException:
-        pass
-
+degrees_list = extract_all_centers_degree_links()
+degrees_dict = retrieve_degree_basic_data(degrees_list)
 write_to_json_file(degrees_dict, "degrees_data.json")
 
 driver.quit()
