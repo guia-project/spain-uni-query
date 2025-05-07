@@ -173,6 +173,9 @@ def retrieve_degree_basic_data(degrees_links_list):
 
 def __process_div_sections(degrees_basic_data_dict):
     div_id_list = ["tone", "ttwo", "tthree", "tfour"]
+    degree_code = get_entity_code("codigoEstudio=")
+    degree_name = driver.find_element(By.XPATH, "//form[@id='estudiocentro']/h2[3]").text
+    degrees_basic_data_dict[degree_code]["Descripción"]["Nombre titulo"] = degree_name
     for index, div_id in enumerate(div_id_list):
         ui_id = f"tab{index + 1}"
         try:
@@ -180,7 +183,6 @@ def __process_div_sections(degrees_basic_data_dict):
             degree_information = driver.find_element(By.ID, div_id)
             degree_information_table = degree_information.find_elements(By.TAG_NAME, "table")
             degree_information_groupbox = degree_information.find_elements(By.TAG_NAME, "fieldset")
-            degree_code = get_entity_code("codigoEstudio=")
             for degree in degree_information_table:
                 get_table_data(degree, degrees_basic_data_dict, div_id)
             for degree in degree_information_groupbox:
