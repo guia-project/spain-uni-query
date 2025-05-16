@@ -1,6 +1,8 @@
 {
-    "Centros autorizados para impartir el Título de Conservación y Restauración de Bienes Culturales": {
+    "28055432": {
         "Datos de identificación": {
+            "Nombre centro": "Centros autorizados para impartir el Título de Conservación y Restauración de Bienes Culturales",
+            "Nombre universidad": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
             "Código del centro": "28055432",
             "Tipo de centro": "Centro Docente en AE",
             "Naturaleza vinculación": "Propio"
@@ -20,8 +22,10 @@
             "Fecha entrada en Vigor": "09/03/2022"
         }
     },
-    "Centros autorizados para impartir el Título de Diseño": {
+    "28055456": {
         "Datos de identificación": {
+            "Nombre centro": "Centros autorizados para impartir el Título de Diseño",
+            "Nombre universidad": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
             "Código del centro": "28055456",
             "Tipo de centro": "Centro Docente en AE",
             "Naturaleza vinculación": "Propio"
@@ -41,8 +45,10 @@
             "Fecha entrada en Vigor": "09/03/2022"
         }
     },
-    "Centros autorizados para impartir el Título Superior de Arte Dramático": {
+    "28055419": {
         "Datos de identificación": {
+            "Nombre centro": "Centros autorizados para impartir el Título Superior de Arte Dramático",
+            "Nombre universidad": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
             "Código del centro": "28055419",
             "Tipo de centro": "Centro Docente en AE",
             "Naturaleza vinculación": "Propio"
@@ -62,8 +68,10 @@
             "Fecha entrada en Vigor": "09/03/2022"
         }
     },
-    "Centros autorizados para impartir el Título Superior de Cerámica": {
+    "28055420": {
         "Datos de identificación": {
+            "Nombre centro": "Centros autorizados para impartir el Título Superior de Cerámica",
+            "Nombre universidad": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
             "Código del centro": "28055420",
             "Tipo de centro": "Centro Docente en AE",
             "Naturaleza vinculación": "Propio"
@@ -83,8 +91,10 @@
             "Fecha entrada en Vigor": "09/03/2022"
         }
     },
-    "Centros autorizados para impartir el Título Superior de Danza": {
+    "28055444": {
         "Datos de identificación": {
+            "Nombre centro": "Centros autorizados para impartir el Título Superior de Danza",
+            "Nombre universidad": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
             "Código del centro": "28055444",
             "Tipo de centro": "Centro Docente en AE",
             "Naturaleza vinculación": "Propio"
@@ -104,8 +114,10 @@
             "Fecha entrada en Vigor": "09/03/2022"
         }
     },
-    "Centros autorizados para impartir el Título Superior de Música": {
+    "28055468": {
         "Datos de identificación": {
+            "Nombre centro": "Centros autorizados para impartir el Título Superior de Música",
+            "Nombre universidad": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
             "Código del centro": "28055468",
             "Tipo de centro": "Centro Docente en AE",
             "Naturaleza vinculación": "Propio"
@@ -125,8 +137,10 @@
             "Fecha entrada en Vigor": "09/03/2022"
         }
     },
-    "Centros autorizados para impartir el Título Superior de Vidrio": {
+    "28055407": {
         "Datos de identificación": {
+            "Nombre centro": "Centros autorizados para impartir el Título Superior de Vidrio",
+            "Nombre universidad": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
             "Código del centro": "28055407",
             "Tipo de centro": "Centro Docente en AE",
             "Naturaleza vinculación": "Propio"
@@ -146,8 +160,10 @@
             "Fecha entrada en Vigor": "09/03/2022"
         }
     },
-    "Escuela Politécnica Superior del Ejército": {
+    "28054300": {
         "Datos de identificación": {
+            "Nombre centro": "Escuela Politécnica Superior del Ejército",
+            "Nombre universidad": "Centros dependientes del Ministerio de Defensa",
             "Código del centro": "28054300",
             "Tipo de centro": "Escuela Técnica Superior",
             "Calificación jurídica": "Público",
@@ -162,7 +178,7 @@
             "Comunidad Autónoma": "Comunidad de Madrid"
         },
         "Datos complementarios": {
-            "URL": "www.ejercito.mde.es/unidades/Madrid/espol/",
+            "URL": "http://www.ejercito.mde.es/unidades/Madrid/espol/",
             "Teléfono 1": "914005600",
             "Fax": "914005677"
         },
@@ -175,8 +191,10 @@
             "Fecha entrada en Vigor": "10/10/1964"
         }
     },
-    "Escuela Técnica Superior de Ingenieros de Armas Navales": {
+    "28054312": {
         "Datos de identificación": {
+            "Nombre centro": "Escuela Técnica Superior de Ingenieros de Armas Navales",
+            "Nombre universidad": "Centros dependientes del Ministerio de Defensa",
             "Código del centro": "28054312",
             "Tipo de centro": "Escuela Técnica Superior",
             "Calificación jurídica": "Público",
@@ -191,7 +209,7 @@
             "Comunidad Autónoma": "Comunidad de Madrid"
         },
         "Datos complementarios": {
-            "URL": "www.armada.mde.es",
+            "URL": "http://www.armada.mde.es/",
             "Teléfono 1": "913795619"
         },
         "Documento": {
@@ -203,8 +221,10 @@
             "Fecha entrada en Vigor": "10/10/1964"
         }
     },
-    "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)": {
+    "50012441": {
         "Datos de identificación": {
+            "Nombre centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)",
+            "Nombre universidad": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
             "Código del centro": "50012441",
             "Calificación jurídica": "Privado",
             "Naturaleza vinculación": "Adscrito"
@@ -218,7 +238,7 @@
             "Comunidad Autónoma": "Comunidad Autónoma de Aragón"
         },
         "Datos complementarios": {
-            "URL": "www.ceste.es",
+            "URL": "http://www.ceste.es/",
             "E-mail": "info@ceste.es",
             "Teléfono 1": "976 56 85 86"
         },

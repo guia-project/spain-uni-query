@@ -1,0 +1,675 @@
+{
+    "9000164": {
+        "Descripción": {
+            "Nombre titulo": "Título de Conservación y Restauración de Bienes Culturales",
+            "Código del título": "9000164",
+            "Nivel académico": "Título Equivalente",
+            "Nivel MECES": "2"
+        },
+        "Titulación Equivalente": {
+            "Equivale al Título": "Diplomado Universitario",
+            "Norma que declara la equivalencia": "Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo",
+            "Fecha de BOE": "http://www.boe.es/eli/es/lo/1990/10/03/1/dof/spa/pdf"
+        },
+        "Créditos": {
+            "Créditos Totales": "0"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
+            "Código Centro": "28055432",
+            "Nombre Centro": "Centros autorizados para impartir el Título de Conservación y Restauración de Bienes Culturales"
+        }
+    },
+    "9000166": {
+        "Descripción": {
+            "Nombre titulo": "Título de Diseño",
+            "Código del título": "9000166",
+            "Nivel académico": "Título Equivalente",
+            "Nivel MECES": "2"
+        },
+        "Titulación Equivalente": {
+            "Equivale al Título": "Diplomado Universitario",
+            "Norma que declara la equivalencia": "Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo",
+            "Fecha de BOE": "http://www.boe.es/eli/es/lo/1990/10/03/1/dof/spa/pdf"
+        },
+        "Créditos": {
+            "Créditos Totales": "0"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
+            "Código Centro": "28055456",
+            "Nombre Centro": "Centros autorizados para impartir el Título de Diseño"
+        }
+    },
+    "9000162": {
+        "Descripción": {
+            "Nombre titulo": "Título Superior de Arte Dramático",
+            "Código del título": "9000162",
+            "Nivel académico": "Título Equivalente",
+            "Nivel MECES": "3"
+        },
+        "Titulación Equivalente": {
+            "Equivale al Título": "Licenciado Universitario",
+            "Norma que declara la equivalencia": "Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo",
+            "Fecha de BOE": "http://www.boe.es/eli/es/lo/1990/10/03/1/dof/spa/pdf"
+        },
+        "Créditos": {
+            "Créditos Totales": "0"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
+            "Código Centro": "28055419",
+            "Nombre Centro": "Centros autorizados para impartir el Título Superior de Arte Dramático"
+        }
+    },
+    "9000163": {
+        "Descripción": {
+            "Nombre titulo": "Título Superior de Cerámica",
+            "Código del título": "9000163",
+            "Nivel académico": "Título Equivalente",
+            "Nivel MECES": "2"
+        },
+        "Titulación Equivalente": {
+            "Equivale al Título": "Diplomado Universitario",
+            "Norma que declara la equivalencia": "Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo",
+            "Fecha de BOE": "http://www.boe.es/eli/es/lo/1990/10/03/1/dof/spa/pdf"
+        },
+        "Créditos": {
+            "Créditos Totales": "0"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
+            "Código Centro": "28055420",
+            "Nombre Centro": "Centros autorizados para impartir el Título Superior de Cerámica"
+        }
+    },
+    "9000165": {
+        "Descripción": {
+            "Nombre titulo": "Título Superior de Danza",
+            "Código del título": "9000165",
+            "Nivel académico": "Título Equivalente",
+            "Nivel MECES": "3"
+        },
+        "Titulación Equivalente": {
+            "Equivale al Título": "Licenciado Universitario",
+            "Norma que declara la equivalencia": "Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo",
+            "Fecha de BOE": "http://www.boe.es/eli/es/lo/1990/10/03/1/dof/spa/pdf"
+        },
+        "Créditos": {
+            "Créditos Totales": "0"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
+            "Código Centro": "28055444",
+            "Nombre Centro": "Centros autorizados para impartir el Título Superior de Danza"
+        }
+    },
+    "9000167": {
+        "Descripción": {
+            "Nombre titulo": "Título Superior de Música",
+            "Código del título": "9000167",
+            "Nivel académico": "Título Equivalente",
+            "Nivel MECES": "3"
+        },
+        "Titulación Equivalente": {
+            "Equivale al Título": "Licenciado Universitario",
+            "Norma que declara la equivalencia": "Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo",
+            "Fecha de BOE": "http://www.boe.es/eli/es/lo/1990/10/03/1/dof/spa/pdf"
+        },
+        "Créditos": {
+            "Créditos Totales": "0"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
+            "Código Centro": "28055468",
+            "Nombre Centro": "Centros autorizados para impartir el Título Superior de Música"
+        }
+    },
+    "9000168": {
+        "Descripción": {
+            "Nombre titulo": "Título Superior de Vidrio",
+            "Código del título": "9000168",
+            "Nivel académico": "Título Equivalente",
+            "Nivel MECES": "2"
+        },
+        "Titulación Equivalente": {
+            "Equivale al Título": "Diplomado Universitario",
+            "Norma que declara la equivalencia": "Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo",
+            "Fecha de BOE": "http://www.boe.es/eli/es/lo/1990/10/03/1/dof/spa/pdf"
+        },
+        "Créditos": {
+            "Créditos Totales": "0"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros autorizados para impartir Enseñanzas Artísticas Superiores",
+            "Código Centro": "28055407",
+            "Nombre Centro": "Centros autorizados para impartir el Título Superior de Vidrio"
+        }
+    },
+    "6000001": {
+        "Descripción": {
+            "Nombre titulo": "Ingeniero de Armamento y Material",
+            "Código del título": "6000001",
+            "Nivel académico": "Sólo Segundo Ciclo",
+            "Nivel MECES": "3",
+            "Nivel Marco Europeo de Cualificaciones (EQF)": "7",
+            "Rama": "Ingeniería y Arquitectura"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros dependientes del Ministerio de Defensa",
+            "Código Centro": "28054300",
+            "Nombre Centro": "Escuela Politécnica Superior del Ejército"
+        }
+    },
+    "6000003": {
+        "Descripción": {
+            "Nombre titulo": "Ingeniero de Construcción y Electricidad",
+            "Código del título": "6000003",
+            "Nivel académico": "Sólo Segundo Ciclo",
+            "Nivel MECES": "3",
+            "Nivel Marco Europeo de Cualificaciones (EQF)": "7",
+            "Rama": "Ingeniería y Arquitectura"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros dependientes del Ministerio de Defensa",
+            "Código Centro": "28054300",
+            "Nombre Centro": "Escuela Politécnica Superior del Ejército"
+        }
+    },
+    "4317709": {
+        "Descripción": {
+            "Nombre titulo": "Máster en Ingeniería de Armamento y Material por la Escuela Politécnica Superior del Ejército",
+            "Código del título": "4317709",
+            "Nivel académico": "Máster - RD 1393/2007 (1)",
+            "Nivel MECES": "3",
+            "Rama": "Ingeniería y Arquitectura",
+            "Habilita para profesión regulada": "Sí",
+            "Profesión regulada": "Ingeniero de Armamento y Material",
+            "Resolución": "http://www.boe.es/boe/dias/2014/09/27/pdfs/BOE-A-2014-9783.pdf",
+            "Norma": "http://www.boe.es/boe/dias/2016/10/21/pdfs/BOE-A-2016-9635.pdf"
+        },
+        "Créditos": {
+            "Créditos Totales": "0"
+        },
+        "Comunidades Autónomas que autorizan": {
+            "Universidad": "Centros dependientes del Ministerio de Defensa",
+            "Código CCAA": "00",
+            "Nombre CCAA": "Estado",
+            "Fecha de Autorización CCAA": "27/11/2020",
+            "Enlace Autorización CCAA": ""
+        },
+        "Fechas y Enlaces a BOE": {
+            "Fecha de verificación": "17/09/2020",
+            "Fecha de autorización del Consejo de Ministros": "08/06/2021",
+            "Fecha de publicación del Acuerdo de Consejo de Ministros en el BOE": "http://www.boe.es/boe/dias/2021/06/17/pdfs/BOE-A-2021-10088.pdf"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros dependientes del Ministerio de Defensa",
+            "Código Centro": "28054300",
+            "Nombre Centro": "Escuela Politécnica Superior del Ejército"
+        },
+        "Histórico de Incidencias del Plan de Estudios": {
+            "1": {
+                "Denominación": "Máster en Ingeniería de Armamento y Material por la Escuela Politécnica Superior del Ejército",
+                "Incidencia": "Alta Inicial",
+                "Fecha de Efectos": "08/06/2021",
+                "Información del título": "https://www.educacion.gob.es/ruct/solicitud/detalles.action?cod=43177092020091401&sit=A&actual=menu.solicitud.basicos"
+            }
+        }
+    },
+    "4317706": {
+        "Descripción": {
+            "Nombre titulo": "Máster en Ingeniería de Construcción y Electricidad por la Escuela Politécnica Superior del Ejército",
+            "Código del título": "4317706",
+            "Nivel académico": "Máster - RD 1393/2007 (1)",
+            "Nivel MECES": "3",
+            "Rama": "Ingeniería y Arquitectura",
+            "Habilita para profesión regulada": "Sí",
+            "Profesión regulada": "Ingeniero de Construcción y Electricidad",
+            "Resolución": "http://www.boe.es/boe/dias/2014/09/27/pdfs/BOE-A-2014-9783.pdf",
+            "Norma": "http://www.boe.es/boe/dias/2016/10/21/pdfs/BOE-A-2016-9634.pdf"
+        },
+        "Créditos": {
+            "Créditos Totales": "0"
+        },
+        "Comunidades Autónomas que autorizan": {
+            "Universidad": "Centros dependientes del Ministerio de Defensa",
+            "Código CCAA": "00",
+            "Nombre CCAA": "Estado",
+            "Fecha de Autorización CCAA": "27/11/2020",
+            "Enlace Autorización CCAA": ""
+        },
+        "Fechas y Enlaces a BOE": {
+            "Fecha de verificación": "17/09/2020",
+            "Fecha de autorización del Consejo de Ministros": "08/06/2021",
+            "Fecha de publicación del Acuerdo de Consejo de Ministros en el BOE": "http://www.boe.es/boe/dias/2021/06/17/pdfs/BOE-A-2021-10088.pdf"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros dependientes del Ministerio de Defensa",
+            "Código Centro": "28054300",
+            "Nombre Centro": "Escuela Politécnica Superior del Ejército"
+        },
+        "Histórico de Incidencias del Plan de Estudios": {
+            "1": {
+                "Denominación": "Máster en Ingeniería de Construcción y Electricidad por la Escuela Politécnica Superior del Ejército",
+                "Incidencia": "Alta Inicial",
+                "Fecha de Efectos": "08/06/2021",
+                "Información del título": "https://www.educacion.gob.es/ruct/solicitud/detalles.action?cod=43177062020091401&sit=A&actual=menu.solicitud.basicos"
+            }
+        }
+    },
+    "6000002": {
+        "Descripción": {
+            "Nombre titulo": "Ingeniero de Armas Navales",
+            "Código del título": "6000002",
+            "Nivel académico": "Sólo Segundo Ciclo",
+            "Nivel MECES": "3",
+            "Nivel Marco Europeo de Cualificaciones (EQF)": "7",
+            "Rama": "Ingeniería y Arquitectura"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros dependientes del Ministerio de Defensa",
+            "Código Centro": "28054312",
+            "Nombre Centro": "Escuela Técnica Superior de Ingenieros de Armas Navales"
+        }
+    },
+    "5601528": {
+        "Descripción": {
+            "Nombre titulo": "Programa de Doctorado en Ingeniería de Armas Navales por la Escuela Técnica Superior de Ingenieros de Armas Navales",
+            "Código del título": "5601528",
+            "Nivel académico": "Doctor - RD 99/2011 (0)",
+            "Nivel MECES": "4"
+        },
+        "Créditos": {
+            "Créditos Totales": "0"
+        },
+        "Comunidades Autónomas que autorizan": {
+            "Universidad": "Centros dependientes del Ministerio de Defensa",
+            "Código CCAA": "00",
+            "Nombre CCAA": "Estado",
+            "Fecha de Autorización CCAA": "25/01/2024",
+            "Enlace Autorización CCAA": "http://publicaciones.defensa.gob.es/bod-acceso-libre-24480.html"
+        },
+        "Fechas y Enlaces a BOE": {
+            "Fecha de verificación": "13/03/2023",
+            "Fecha de autorización del Consejo de Ministros": "09/04/2024",
+            "Fecha de publicación del Acuerdo de Consejo de Ministros en el BOE": "http://www.boe.es/boe/dias/2024/04/17/pdfs/BOE-A-2024-7595.pdf"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros dependientes del Ministerio de Defensa",
+            "Código Centro": "28054312",
+            "Nombre Centro": "Escuela Técnica Superior de Ingenieros de Armas Navales"
+        },
+        "Histórico de Incidencias del Plan de Estudios": {
+            "1": {
+                "Denominación": "Programa de Doctorado en Ingeniería de Armas Navales por la Escuela Técnica Superior de Ingenieros de Armas Navales",
+                "Incidencia": "Alta Inicial",
+                "Fecha de Efectos": "09/04/2024",
+                "Información del título": "https://www.educacion.gob.es/ruct/solicitud/detalles.action?cod=56015282022121401&sit=A&actual=menu.solicitud.basicos"
+            }
+        }
+    },
+    "4317708": {
+        "Descripción": {
+            "Nombre titulo": "Máster Universitario en Ingeniería de Armas Navales por la Centros dependientes del Ministerio de Defensa",
+            "Código del título": "4317708",
+            "Nivel académico": "Máster - RD 1393/2007 (1)",
+            "Nivel MECES": "3",
+            "Rama": "Ingeniería y Arquitectura",
+            "Habilita para profesión regulada": "Sí",
+            "Profesión regulada": "Ingeniero de Armas Navales",
+            "Resolución": "http://www.boe.es/boe/dias/2014/03/25/pdfs/BOE-A-2014-3188.pdf",
+            "Norma": "http://www.boe.es/boe/dias/2016/10/21/pdfs/BOE-A-2016-9636.pdf"
+        },
+        "Créditos": {
+            "Nº Créditos Obligatorios": "107",
+            "Nº Créditos Optativos": "6",
+            "Nº Créditos en Prácticas Externas": "0",
+            "Nº Créditos Trabajo Fin de Grado/Master": "7",
+            "Créditos Totales": "120"
+        },
+        "Comunidades Autónomas que autorizan": {
+            "Universidad": "Centros dependientes del Ministerio de Defensa",
+            "Código CCAA": "00",
+            "Nombre CCAA": "Estado",
+            "Fecha de Autorización CCAA": "27/11/2020",
+            "Enlace Autorización CCAA": ""
+        },
+        "Fechas y Enlaces a BOE": {
+            "Fecha de verificación": "17/09/2020",
+            "Fecha de autorización del Consejo de Ministros": "08/06/2021",
+            "Fecha de publicación del Acuerdo de Consejo de Ministros en el BOE": "http://www.boe.es/boe/dias/2021/06/17/pdfs/BOE-A-2021-10088.pdf"
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros dependientes del Ministerio de Defensa",
+            "Código Centro": "28054312",
+            "Nombre Centro": "Escuela Técnica Superior de Ingenieros de Armas Navales"
+        },
+        "Histórico de Incidencias del Plan de Estudios": {
+            "1": {
+                "Denominación": "Máster Universitario en Ingeniería de Armas Navales por la Escuela Técnica Superior de Ingenieros de Armas Navales",
+                "Incidencia": "Alta Inicial",
+                "Fecha de Efectos": "08/06/2021",
+                "Información del título": "https://www.educacion.gob.es/ruct/solicitud/detalles.action?cod=43177082020091401&sit=A&actual=menu.solicitud.basicos"
+            },
+            "2": {
+                "Denominación": "Máster Universitario en Ingeniería de Armas Navales por la Centros dependientes del Ministerio de Defensa",
+                "Incidencia": "Modificación",
+                "Fecha de Efectos": "17/01/2024",
+                "Información del título": "https://www.educacion.gob.es/ruct/solicitud/detalles.action?cod=43177082023110301&sit=A&actual=menu.solicitud.basicos"
+            }
+        }
+    },
+    "8000084": {
+        "Descripción": {
+            "Nombre titulo": "Bachelor of Arts (Honours) Business Management - BA (Hons) Business Management",
+            "Código del título": "8000084",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales Trinity Saint David",
+            "Duración temporal": "3 años",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Marzo de 2022",
+            "Fecha de autorización C.A.": "20/03/2024",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1326270640707"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "180",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000077": {
+        "Descripción": {
+            "Nombre titulo": "Bachelor of Arts (Honours) in Business Administration - BA (Hons) in Business Administration",
+            "Código del título": "8000077",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales Trinity Saint David",
+            "Duración temporal": "4 años",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Junio de 2015",
+            "Fecha de autorización C.A.": "18/01/2000",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=431063005555"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "240",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000085": {
+        "Descripción": {
+            "Nombre titulo": "Bachelor of Science (Honours) Applied Computing - BSc (Hons) Applied Computing",
+            "Código del título": "8000085",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales Trinity Saint David",
+            "Duración temporal": "3 años",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Marzo de 2022",
+            "Fecha de autorización C.A.": "20/03/2024",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1326270640707"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "180",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000078": {
+        "Descripción": {
+            "Nombre titulo": "Bachelor of Science (Honours) in Computer Science - BSc (Hons) in Computer Science",
+            "Código del título": "8000078",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales Trinity Saint David",
+            "Duración temporal": "4 años",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Junio de 2015",
+            "Fecha de autorización C.A.": "07/06/2005",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1326270640707"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "240",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000082": {
+        "Descripción": {
+            "Nombre titulo": "Foundation Certificate in Business - FC in Business",
+            "Código del título": "8000082",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales Trinity Saint David",
+            "Duración temporal": "1 año",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Marzo de 2022",
+            "Fecha de autorización C.A.": "20/03/2024",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1326270640707"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "60",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000083": {
+        "Descripción": {
+            "Nombre titulo": "Foundation Certificate in Information Technology - FC in Information Technology",
+            "Código del título": "8000083",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales Trinity Saint David",
+            "Duración temporal": "1 año",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Marzo de 2022",
+            "Fecha de autorización C.A.": "20/03/2024",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1326270640707"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "60",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000080": {
+        "Descripción": {
+            "Nombre titulo": "Master of Arts in Banking and Finance - MA in Banking and Finance",
+            "Código del título": "8000080",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales",
+            "Duración temporal": "1 año",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Junio de 2015",
+            "Fecha de autorización C.A.": "29/08/2014",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=812684862929"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "90",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000079": {
+        "Descripción": {
+            "Nombre titulo": "Master of Business Administration - MBA",
+            "Código del título": "8000079",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales",
+            "Duración temporal": "1 año",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Junio de 2015",
+            "Fecha de autorización C.A.": "29/08/2014",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=812684862929"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "90",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000086": {
+        "Descripción": {
+            "Nombre titulo": "Master of Business Administration - MBA",
+            "Código del título": "8000086",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales Trinity Saint David",
+            "Duración temporal": "1,5 años",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Marzo de 2022",
+            "Fecha de autorización C.A.": "20/03/2024",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1326270640707"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "90",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000088": {
+        "Descripción": {
+            "Nombre titulo": "Master of Science Computer Networks and Security - MSc Computer Networks and Security",
+            "Código del título": "8000088",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales Trinity Saint David",
+            "Duración temporal": "1,5 años",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Marzo de 2022",
+            "Fecha de autorización C.A.": "20/03/2024",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1326270640707"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "90",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000087": {
+        "Descripción": {
+            "Nombre titulo": "Master of Science Financial Management - MSc Financial Management",
+            "Código del título": "8000087",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales Trinity Saint David",
+            "Duración temporal": "1,5 años",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Marzo de 2022",
+            "Fecha de autorización C.A.": "20/03/2024",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1326270640707"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "90",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    },
+    "8000081": {
+        "Descripción": {
+            "Nombre titulo": "Master of Science in Communication Technology - MSc in Communication Technology",
+            "Código del título": "8000081",
+            "Nivel académico": "Título Extranjero"
+        },
+        "Titulación Extranjera": {
+            "País de origen": "Reino Unido",
+            "Universidad extranjera": "University of Wales",
+            "Duración temporal": "1 año",
+            "Evaluado favorable por": "Quality Assurance Agency for Higher Education (QAA)",
+            "Fecha de evaluación": "Junio de 2015",
+            "Fecha de autorización C.A.": "29/08/2014",
+            "Enlace al boletín C.A.": "http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=812684862929"
+        },
+        "Datos Básicos": {
+            "Créditos Totales": "90",
+            "Modalidad": "Presencial\nPlazas",
+            "": ""
+        },
+        "Centros en los que se imparte": {
+            "Nombre Univ.": "Centros extranjeros autorizados por la Comunidad Autónoma de Aragón",
+            "Código Centro": "50012441",
+            "Nombre Centro": "Centro de Estudios Superiores y Técnicos de Empresa (CESTE)"
+        }
+    }
+}
